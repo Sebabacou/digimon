@@ -8,7 +8,8 @@
 SRC	=	src/main.c	\
 		src/research_lib.c  \
 		src/research_operation.c    \
-		src/research.c
+		src/research.c	\
+		src/sounds.c
 
 OBJ	=	$(SRC:.c=.o)
 

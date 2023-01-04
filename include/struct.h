@@ -40,5 +40,6 @@ void del_str(num_t *num);
 void reset_str(num_t *num);
 void research(sfEvent *event, num_t *num);
 void init_string(num_t *num);
+void create_sounds(pokesounds_t *sounds);
 
 #endif
