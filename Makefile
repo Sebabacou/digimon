@@ -12,7 +12,7 @@ SRC	=	src/main.c	\
 
 OBJ	=	$(SRC:.c=.o)
 
-NAME	=	my_hunter
+NAME	=	zarbidex
 
 CFLAGS	=	-I include
 
