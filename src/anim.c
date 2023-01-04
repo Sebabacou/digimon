@@ -5,7 +5,8 @@
 ** anim
 */
 
-#include "../include/header.h"
+#include <SFML/Graphics.h>
+#include "struct.h"
 
 struct sprt_s anim(sfRenderWindow* window, struct sprt_s pk, struct clock_s cl)
 {

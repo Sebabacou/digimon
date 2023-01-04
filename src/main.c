@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include "struct.h"
 
-void my_button(sfRenderWindow *w, sfEvent event, num_t *num, sfSound *change)
+void my_button(sfRenderWindow *w, sfEvent event, num_t *num, sfSound *change, pokemon_t *poke)
 {
     sfVector2i mouse = sfMouse_getPositionRenderWindow(w);
     
@@ -28,7 +28,7 @@ void my_button(sfRenderWindow *w, sfEvent event, num_t *num, sfSound *change)
     if (mouse.x >= 424 && mouse.x <= 450 && mouse.y >= 326 && mouse.y <= 352)
         if (event.type == sfEvtMouseButtonPressed)
             sfSound_play(change);
-    research(&event, num);
+    research(&event, num, poke);
 }
 
 void end(num_t *num, sfSound *open, sfSound *change, sfRenderWindow *w)
@@ -41,7 +41,7 @@ void end(num_t *num, sfSound *open, sfSound *change, sfRenderWindow *w)
     sfRenderWindow_destroy(w);
 }
 
-int main_bis(sfEvent event, sfRenderWindow *w, sfSprite *s)
+int main_bis(sfEvent event, sfRenderWindow *w,struct sprt_s pkmn, struct sprt_s bbl, sfSprite *s, pokemon_t *poke)
 {
     sfSound *open = sfSound_create();
     sfSoundBuffer *buff = sfSoundBuffer_createFromFile("ressources/open_sound.ogg");
@@ -49,23 +49,29 @@ int main_bis(sfEvent event, sfRenderWindow *w, sfSprite *s)
     sfSoundBuffer *buff2 = sfSoundBuffer_createFromFile("ressources/switch_pokemon.ogg");
     num_t *num = malloc(sizeof(num_t));
     pokesounds_t *sounds = malloc(sizeof(pokesounds_t) * 151);
+    struct clock_s cl;
 
     create_sounds(sounds);
     init_string(num);
     sfSound_setBuffer(open, buff);
     sfSound_setBuffer(change, buff2);
     sfSound_play(open);
+    cl.clock = sfClock_create();
     while (sfRenderWindow_isOpen(w)) {
         while (sfRenderWindow_pollEvent(w, &event))
-            my_button(w, event, num, change);
+            my_button(w, event, num, change, poke);
         sfRenderWindow_drawSprite(w, s, NULL);
         sfRenderWindow_drawText(w, num->text, NULL);
+        sfRenderWindow_drawSprite(w, pkmn.sprite, NULL);
+        sfRenderWindow_drawSprite(w, bbl.sprite, NULL);
+        pkmn = anim(w, pkmn, cl);
         sfRenderWindow_display(w);
     }
     end(num, open, change, w);
+    return 0;
 }
 
-int main(void)
+int main(int argc, char **av)
 {
     sfVideoMode m = {620, 449, 32};
     sfRenderWindow *w = sfRenderWindow_create(m, "screen", sfResize | sfClose, NULL);
@@ -74,9 +80,10 @@ int main(void)
     sfEvent event;
     pokemon_t *poke = malloc(sizeof(pokemon_t) * 153);
 
+
     parsing(poke);
     sfRenderWindow_setFramerateLimit(w, 60);
     sfSprite_setTexture(s, background, sfTrue);
-    main_bis(event, w, s);
+    init_sprite(w, s, poke, event);
     return 0;
 }

@@ -51,7 +51,12 @@ void is_num_pressed(sfEvent *event, num_t *num)
         update_number(num, 0);
 }
 
-void research(sfEvent *event, num_t *num)
+void go_to_index(int nb)
+{
+
+}
+
+void research(sfEvent *event, num_t *num, pokemon_t *poke)
 {
     if (event->type == sfEvtKeyPressed && sfKeyboard_isKeyPressed(sfKeyDelete))
         del_str(num);
@@ -64,10 +69,4 @@ void research(sfEvent *event, num_t *num)
             reset_str(num);
             go_to_index(num->value);
         }
-}
-
-void go_to_index(int nb)
-{
-
-
 }

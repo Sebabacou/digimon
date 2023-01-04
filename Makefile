@@ -10,7 +10,9 @@ SRC	=	src/main.c	\
 		src/research_operation.c    \
 		src/research.c	\
 		src/sounds.c	\
-		src/parsing.c
+		src/parsing.c	\
+		src/anim.c	\
+		src/setup_sprite.c
 
 OBJ	=	$(SRC:.c=.o)
 

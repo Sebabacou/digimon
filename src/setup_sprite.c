@@ -5,7 +5,8 @@
 ** setup sprite
 */
 
-#include "../include/header.h"
+#include <SFML/Graphics.h>
+#include "struct.h"
 
 struct sprt_s setup_bubble(struct sprt_s bbl)
 {
@@ -86,7 +87,7 @@ struct sprt_s define_sprite(struct sprt_s pkmn)
     return pkmn;
 }
 
-void init_sprite(sfRenderWindow *window)
+void init_sprite(sfRenderWindow *window,sfSprite *s, pokemon_t *poke, sfEvent event)
 {
     struct sprt_s pkmn;
     struct sprt_s bbl;
@@ -104,7 +105,7 @@ void init_sprite(sfRenderWindow *window)
     sfSprite_setTexture(bbl.sprite, bbl.texture, sfTrue);
     sfSprite_setTextureRect(pkmn.sprite, pkmn.rect);
     sfSprite_setTextureRect(bbl.sprite, bbl.rect);
-    display_window(window, pkmn, bbl);
+    main_bis(event, window, pkmn, bbl, s, poke);
     sfSprite_destroy(pkmn.sprite);
     sfSprite_destroy(bbl.sprite);
     sfTexture_destroy(pkmn.texture);

@@ -28,7 +28,6 @@ int getsize(int value)
 
 void int_to_string(int n, char *str)
 {
-    int size = getsize(n);
     int len = 1;
 
     for (int n_copy = n; n_copy >= 10; n_copy /= 10) {
