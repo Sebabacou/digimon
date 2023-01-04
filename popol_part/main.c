@@ -11,8 +11,11 @@
 
 void my_button(sfRenderWindow *w, sfEvent event)
 {
+    
     sfVector2i mouse = sfMouse_getPosition(w);
 
+    if (event.type == sfEvtClosed)
+        sfRenderWindow_close(w);
     if (mouse.x >= 250 && mouse.x <= 276 && mouse.y >= 350 && mouse.y <= 370)
         if (event.type == sfEvtMouseButtonPressed)
             printf("next\n");
@@ -41,9 +44,7 @@ int main(void)
         sfSprite_setTexture(s, background, sfTrue);
         sfRenderWindow_drawSprite(w, s, NULL);
         while (sfRenderWindow_pollEvent(w, &event))
-            if (event.type == sfEvtClosed)
-                sfRenderWindow_close(w);
-        my_button(w, event);
+            my_button(w, event);
         sfRenderWindow_display(w);
     }
     sfRenderWindow_destroy(w);
