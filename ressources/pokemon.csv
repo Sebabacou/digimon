@@ -1,0 +1,802 @@
+﻿pokedex_number;name;japanese_name;type1;type2;classfication;attack;defense;hp;sp_attack;sp_defense;speed;weight_kg;height_m;generation;is_legendary
+1;Bulbasaur;Fushigidaneフシギダネ;grass;poison;Seed Pokémon;49;49;45;65;65;45;6.9;0.7;1;0
+2;Ivysaur;Fushigisouフシギソウ;grass;poison;Seed Pokémon;62;63;60;80;80;60;13;1;1;0
+3;Venusaur;Fushigibanaフシギバナ;grass;poison;Seed Pokémon;100;123;80;122;120;80;100;2;1;0
+4;Charmander;Hitokageヒトカゲ;fire;NULL;Lizard Pokémon;52;43;39;60;50;65;8.5;0.6;1;0
+5;Charmeleon;Lizardoリザード;fire;NULL;Flame Pokémon;64;58;58;80;65;80;19;1.1;1;0
+6;Charizard;Lizardonリザードン;fire;flying;Flame Pokémon;104;78;78;159;115;100;90.5;1.7;1;0
+7;Squirtle;Zenigameゼニガメ;water;NULL;Tiny Turtle Pokémon;48;65;44;50;64;43;9;0.5;1;0
+8;Wartortle;Kameilカメール;water;NULL;Turtle Pokémon;63;80;59;65;80;58;22.5;1;1;0
+9;Blastoise;Kamexカメックス;water;NULL;Shellfish Pokémon;103;120;79;135;115;78;85.5;1.6;1;0
+10;Caterpie;Caterpieキャタピー;bug;NULL;Worm Pokémon;30;35;45;20;20;45;2.9;0.3;1;0
+11;Metapod;Transelトランセル;bug;NULL;Cocoon Pokémon;20;55;50;25;25;30;9.9;0.7;1;0
+12;Butterfree;Butterfreeバタフリー;bug;flying;Butterfly Pokémon;45;50;60;90;80;70;32;1.1;1;0
+13;Weedle;Beedleビードル;bug;poison;Hairy Pokémon;35;30;40;20;20;50;3.2;0.3;1;0
+14;Kakuna;Cocoonコクーン;bug;poison;Cocoon Pokémon;25;50;45;25;25;35;10;0.6;1;0
+15;Beedrill;Spearスピアー;bug;poison;Poison Bee Pokémon;150;40;65;15;80;145;29.5;1;1;0
+16;Pidgey;Poppoポッポ;normal;flying;Tiny Bird Pokémon;45;40;40;35;35;56;1.8;0.3;1;0
+17;Pidgeotto;Pigeonピジョン;normal;flying;Bird Pokémon;60;55;63;50;50;71;30;1.1;1;0
+18;Pidgeot;Pigeotピジョット;normal;flying;Bird Pokémon;80;80;83;135;80;121;39.5;1.5;1;0
+19;Rattata;Korattaコラッタ;normal;dark;Mouse Pokémon;56;35;30;25;35;72;NULL;NONE;1;0
+20;Raticate;Rattaラッタ;normal;dark;Mouse Pokémon;71;70;75;40;80;77;NULL;NONE;1;0
+21;Spearow;Onisuzumeオニスズメ;normal;flying;Tiny Bird Pokémon;60;30;40;31;31;70;2;0.3;1;0
+22;Fearow;Onidrillオニドリル;normal;flying;Beak Pokémon;90;65;65;61;61;100;38;1.2;1;0
+23;Ekans;Arboアーボ;poison;NULL;Snake Pokémon;60;44;35;40;54;55;6.9;2;1;0
+24;Arbok;Arbokアーボック;poison;NULL;Cobra Pokémon;95;69;60;65;79;80;65;3.5;1;0
+25;Pikachu;Pikachuピカチュウ;electric;NULL;Mouse Pokémon;55;40;35;50;50;90;6;0.4;1;0
+26;Raichu;Raichuライチュウ;electric;electric;Mouse Pokémon;85;50;60;95;85;110;NULL;NONE;1;0
+27;Sandshrew;Sandサンド;ground;ice;Mouse Pokémon;75;90;50;10;35;40;NULL;NONE;1;0
+28;Sandslash;Sandpanサンドパン;ground;ice;Mouse Pokémon;100;120;75;25;65;65;NULL;NONE;1;0
+29;Nidoran♀;Nidoran?ニドラン♀;poison;NULL;Poison Pin Pokémon;47;52;55;40;40;41;7;0.4;1;0
+30;Nidorina;Nidorinaニドリーナ;poison;NULL;Poison Pin Pokémon;62;67;70;55;55;56;20;0.8;1;0
+31;Nidoqueen;Nidoqueenニドクイン;poison;ground;Drill Pokémon;92;87;90;75;85;76;60;1.3;1;0
+32;Nidoran♂;Nidoran?ニドラン♂;poison;NULL;Poison Pin Pokémon;57;40;46;40;40;50;9;0.5;1;0
+33;Nidorino;Nidorinoニドリーノ;poison;NULL;Poison Pin Pokémon;72;57;61;55;55;65;19.5;0.9;1;0
+34;Nidoking;Nidokingニドキング;poison;ground;Drill Pokémon;102;77;81;85;75;85;62;1.4;1;0
+35;Clefairy;Pippiピッピ;fairy;NULL;Fairy Pokémon;45;48;70;60;65;35;7.5;0.6;1;0
+36;Clefable;Pixyピクシー;fairy;NULL;Fairy Pokémon;70;73;95;95;90;60;40;1.3;1;0
+37;Vulpix;Rokonロコン;fire;ice;Fox Pokémon;41;40;38;50;65;65;NULL;NONE;1;0
+38;Ninetales;Kyukonキュウコン;fire;ice;Fox Pokémon;67;75;73;81;100;109;NULL;NONE;1;0
+39;Jigglypuff;Purinプリン;normal;fairy;Balloon Pokémon;45;20;115;45;25;20;5.5;0.5;1;0
+40;Wigglytuff;Pukurinプクリン;normal;fairy;Balloon Pokémon;70;45;140;85;50;45;12;1;1;0
+41;Zubat;Zubatズバット;poison;flying;Bat Pokémon;45;35;40;30;40;55;7.5;0.8;1;0
+42;Golbat;Golbatゴルバット;poison;flying;Bat Pokémon;80;70;75;65;75;90;55;1.6;1;0
+43;Oddish;Nazonokusaナゾノクサ;grass;poison;Weed Pokémon;50;55;45;75;65;30;5.4;0.5;1;0
+44;Gloom;Kusaihanaクサイハナ;grass;poison;Weed Pokémon;65;70;60;85;75;40;8.6;0.8;1;0
+45;Vileplume;Ruffresiaラフレシア;grass;poison;Flower Pokémon;80;85;75;110;90;50;18.6;1.2;1;0
+46;Paras;Parasパラス;bug;grass;Mushroom Pokémon;70;55;35;45;55;25;5.4;0.3;1;0
+47;Parasect;Parasectパラセクト;bug;grass;Mushroom Pokémon;95;80;60;60;80;30;29.5;1;1;0
+48;Venonat;Kongpangコンパン;bug;poison;Insect Pokémon;55;50;60;40;55;45;30;1;1;0
+49;Venomoth;Morphonモルフォン;bug;poison;Poison Moth Pokémon;65;60;70;90;75;90;12.5;1.5;1;0
+50;Diglett;Digdaディグダ;ground;ground;Mole Pokémon;55;30;10;35;45;90;NULL;NONE;1;0
+51;Dugtrio;Dugtrioダグトリオ;ground;ground;Mole Pokémon;100;60;35;50;70;110;NULL;NONE;1;0
+52;Meowth;Nyarthニャース;normal;dark;Scratch Cat Pokémon;35;35;40;50;40;90;NULL;NONE;1;0
+53;Persian;Persianペルシアン;normal;dark;Classy Cat Pokémon;60;60;65;75;65;115;NULL;NONE;1;0
+54;Psyduck;Koduckコダック;water;NULL;Duck Pokémon;52;48;50;65;50;55;19.6;0.8;1;0
+55;Golduck;Golduckゴルダック;water;NULL;Duck Pokémon;82;78;80;95;80;85;76.6;1.7;1;0
+56;Mankey;Mankeyマンキー;fighting;NULL;Pig Monkey Pokémon;80;35;40;35;45;70;28;0.5;1;0
+57;Primeape;Okorizaruオコリザル;fighting;NULL;Pig Monkey Pokémon;105;60;65;60;70;95;32;1;1;0
+58;Growlithe;Gardieガーディ;fire;NULL;Puppy Pokémon;70;45;55;70;50;60;19;0.7;1;0
+59;Arcanine;Windieウインディ;fire;NULL;Legendary Pokémon;110;80;90;100;80;95;155;1.9;1;0
+60;Poliwag;Nyoromoニョロモ;water;NULL;Tadpole Pokémon;50;40;40;40;40;90;12.4;0.6;1;0
+61;Poliwhirl;Nyorozoニョロゾ;water;NULL;Tadpole Pokémon;65;65;65;50;50;90;20;1;1;0
+62;Poliwrath;Nyorobonニョロボン;water;fighting;Tadpole Pokémon;95;95;90;70;90;70;54;1.3;1;0
+63;Abra;Caseyケーシィ;psychic;NULL;Psi Pokémon;20;15;25;105;55;90;19.5;0.9;1;0
+64;Kadabra;Yungererユンゲラー;psychic;NULL;Psi Pokémon;35;30;40;120;70;105;56.5;1.3;1;0
+65;Alakazam;Foodinフーディン;psychic;NULL;Psi Pokémon;50;65;55;175;105;150;48;1.5;1;0
+66;Machop;Wanrikyワンリキー;fighting;NULL;Superpower Pokémon;80;50;70;35;35;35;19.5;0.8;1;0
+67;Machoke;Gorikyゴーリキー;fighting;NULL;Superpower Pokémon;100;70;80;50;60;45;70.5;1.5;1;0
+68;Machamp;Kairikyカイリキー;fighting;NULL;Superpower Pokémon;130;80;90;65;85;55;130;1.6;1;0
+69;Bellsprout;Madatsubomiマダツボミ;grass;poison;Flower Pokémon;75;35;50;70;30;40;4;0.7;1;0
+70;Weepinbell;Utsudonウツドン;grass;poison;Flycatcher Pokémon;90;50;65;85;45;55;6.4;1;1;0
+71;Victreebel;Utsubotウツボット;grass;poison;Flycatcher Pokémon;105;65;80;100;70;70;15.5;1.7;1;0
+72;Tentacool;Menokurageメノクラゲ;water;poison;Jellyfish Pokémon;40;35;40;50;100;70;45.5;0.9;1;0
+73;Tentacruel;Dokukurageドククラゲ;water;poison;Jellyfish Pokémon;70;65;80;80;120;100;55;1.6;1;0
+74;Geodude;Isitsubuteイシツブテ;rock;ground;Rock Pokémon;80;100;40;30;30;20;NULL;NONE;1;0
+75;Graveler;Goloneゴローン;rock;ground;Rock Pokémon;95;115;55;45;45;35;NULL;NONE;1;0
+76;Golem;Golonyaゴローニャ;rock;ground;Megaton Pokémon;120;130;80;55;65;45;NULL;NONE;1;0
+77;Ponyta;Ponytaポニータ;fire;NULL;Fire Horse Pokémon;85;55;50;65;65;90;30;1;1;0
+78;Rapidash;Gallopギャロップ;fire;NULL;Fire Horse Pokémon;100;70;65;80;80;105;95;1.7;1;0
+79;Slowpoke;Yadonヤドン;water;psychic;Dopey Pokémon;65;65;90;40;40;15;36;1.2;1;0
+80;Slowbro;Yadoranヤドラン;water;psychic;Hermit Crab Pokémon;75;180;95;130;80;30;78.5;1.6;1;0
+81;Magnemite;Coilコイル;electric;steel;Magnet Pokémon;35;70;25;95;55;45;6;0.3;1;0
+82;Magneton;Rarecoilレアコイル;electric;steel;Magnet Pokémon;60;95;50;120;70;70;60;1;1;0
+83;Farfetch'd;Kamonegiカモネギ;normal;flying;Wild Duck Pokémon;90;55;52;58;62;60;15;0.8;1;0
+84;Doduo;Dodoドードー;normal;flying;Twin Bird Pokémon;85;45;35;35;35;75;39.2;1.4;1;0
+85;Dodrio;Dodorioドードリオ;normal;flying;Triple Bird Pokémon;110;70;60;60;60;110;85.2;1.8;1;0
+86;Seel;Pawouパウワウ;water;NULL;Sea Lion Pokémon;45;55;65;45;70;45;90;1.1;1;0
+87;Dewgong;Jugonジュゴン;water;ice;Sea Lion Pokémon;70;80;90;70;95;70;120;1.7;1;0
+88;Grimer;Betbeterベトベター;poison;poison;Sludge Pokémon;80;50;80;40;50;25;NULL;NONE;1;0
+89;Muk;Betbetonベトベトン;poison;poison;Sludge Pokémon;105;75;105;65;100;50;NULL;NONE;1;0
+90;Shellder;Shellderシェルダー;water;NULL;Bivalve Pokémon;65;100;30;45;25;40;4;0.3;1;0
+91;Cloyster;Parshenパルシェン;water;ice;Bivalve Pokémon;95;180;50;85;45;70;132.5;1.5;1;0
+92;Gastly;Ghosゴース;ghost;poison;Gas Pokémon;35;30;30;100;35;80;0.1;1.3;1;0
+93;Haunter;Ghostゴースト;ghost;poison;Gas Pokémon;50;45;45;115;55;95;0.1;1.6;1;0
+94;Gengar;Gangarゲンガー;ghost;poison;Shadow Pokémon;65;80;60;170;95;130;40.5;1.5;1;0
+95;Onix;Iwarkイワーク;rock;ground;Rock Snake Pokémon;45;160;35;30;45;70;210;8.8;1;0
+96;Drowzee;Sleepeスリープ;psychic;NULL;Hypnosis Pokémon;48;45;60;43;90;42;32.4;1;1;0
+97;Hypno;Sleeperスリーパー;psychic;NULL;Hypnosis Pokémon;73;70;85;73;115;67;75.6;1.6;1;0
+98;Krabby;Crabクラブ;water;NULL;River Crab Pokémon;105;90;30;25;25;50;6.5;0.4;1;0
+99;Kingler;Kinglerキングラー;water;NULL;Pincer Pokémon;130;115;55;50;50;75;60;1.3;1;0
+100;Voltorb;Biriridamaビリリダマ;electric;NULL;Ball Pokémon;30;50;40;55;55;100;10.4;0.5;1;0
+101;Electrode;Marumineマルマイン;electric;NULL;Ball Pokémon;50;70;60;80;80;150;66.6;1.2;1;0
+102;Exeggcute;Tamatamaタマタマ;grass;psychic;Egg Pokémon;40;80;60;60;45;40;2.5;0.4;1;0
+103;Exeggutor;Nassyナッシー;grass;psychic;Coconut Pokémon;105;85;95;125;75;45;NULL;NONE;1;0
+104;Cubone;Karakaraカラカラ;ground;NULL;Lonely Pokémon;50;95;50;40;50;35;6.5;0.4;1;0
+105;Marowak;Garagaraガラガラ;ground;fire;Bone Keeper Pokémon;80;110;60;50;80;45;NULL;NONE;1;0
+106;Hitmonlee;Sawamularサワムラー;fighting;NULL;Kicking Pokémon;120;53;50;35;110;87;49.8;1.5;1;0
+107;Hitmonchan;Ebiwalarエビワラー;fighting;NULL;Punching Pokémon;105;79;50;35;110;76;50.2;1.4;1;0
+108;Lickitung;Beroringaベロリンガ;normal;NULL;Licking Pokémon;55;75;90;60;75;30;65.5;1.2;1;0
+109;Koffing;Dogarsドガース;poison;NULL;Poison Gas Pokémon;65;95;40;60;45;35;1;0.6;1;0
+110;Weezing;Matadogasマタドガス;poison;NULL;Poison Gas Pokémon;90;120;65;85;70;60;9.5;1.2;1;0
+111;Rhyhorn;Sihornサイホーン;ground;rock;Spikes Pokémon;85;95;80;30;30;25;115;1;1;0
+112;Rhydon;Sidonサイドン;ground;rock;Drill Pokémon;130;120;105;45;45;40;120;1.9;1;0
+113;Chansey;Luckyラッキー;normal;NULL;Egg Pokémon;5;5;250;35;105;50;34.6;1.1;1;0
+114;Tangela;Monjaraモンジャラ;grass;NULL;Vine Pokémon;55;115;65;100;40;60;35;1;1;0
+115;Kangaskhan;Garuraガルーラ;normal;NULL;Parent Pokémon;125;100;105;60;100;100;80;2.2;1;0
+116;Horsea;Tattuタッツー;water;NULL;Dragon Pokémon;40;70;30;70;25;60;8;0.4;1;0
+117;Seadra;Seadraシードラ;water;NULL;Dragon Pokémon;65;95;55;95;45;85;25;1.2;1;0
+118;Goldeen;Tosakintoトサキント;water;NULL;Goldfish Pokémon;67;60;45;35;50;63;15;0.6;1;0
+119;Seaking;Azumaoアズマオウ;water;NULL;Goldfish Pokémon;92;65;80;65;80;68;39;1.3;1;0
+120;Staryu;Hitodemanヒトデマン;water;NULL;Starshape Pokémon;45;55;30;70;55;85;34.5;0.8;1;0
+121;Starmie;Starmieスターミー;water;psychic;Mysterious Pokémon;75;85;60;100;85;115;80;1.1;1;0
+122;Mr. Mime;Barrierdバリヤード;psychic;fairy;Barrier Pokémon;45;65;40;100;120;90;54.5;1.3;1;0
+123;Scyther;Strikeストライク;bug;flying;Mantis Pokémon;110;80;70;55;80;105;56;1.5;1;0
+124;Jynx;Rougelaルージュラ;ice;psychic;Humanshape Pokémon;50;35;65;115;95;95;40.6;1.4;1;0
+125;Electabuzz;Elebooエレブー;electric;NULL;Electric Pokémon;83;57;65;95;85;105;30;1.1;1;0
+126;Magmar;Booberブーバー;fire;NULL;Spitfire Pokémon;95;57;65;100;85;93;44.5;1.3;1;0
+127;Pinsir;Kailiosカイロス;bug;NULL;Stagbeetle Pokémon;155;120;65;65;90;105;55;1.5;1;0
+128;Tauros;Kentaurosケンタロス;normal;NULL;Wild Bull Pokémon;100;95;75;40;70;110;88.4;1.4;1;0
+129;Magikarp;Koikingコイキング;water;NULL;Fish Pokémon;10;55;20;15;20;80;10;0.9;1;0
+130;Gyarados;Gyaradosギャラドス;water;flying;Atrocious Pokémon;155;109;95;70;130;81;235;6.5;1;0
+131;Lapras;Laplaceラプラス;water;ice;Transport Pokémon;85;80;130;85;95;60;220;2.5;1;0
+132;Ditto;Metamonメタモン;normal;NULL;Transform Pokémon;48;48;48;48;48;48;4;0.3;1;0
+133;Eevee;Eievuiイーブイ;normal;NULL;Evolution Pokémon;55;50;55;45;65;55;6.5;0.3;1;0
+134;Vaporeon;Showersシャワーズ;water;NULL;Bubble Jet Pokémon;65;60;130;110;95;65;29;1;1;0
+135;Jolteon;Thundersサンダース;electric;NULL;Lightning Pokémon;65;60;65;110;95;130;24.5;0.8;1;0
+136;Flareon;Boosterブースター;fire;NULL;Flame Pokémon;130;60;65;95;110;65;25;0.9;1;0
+137;Porygon;Porygonポリゴン;normal;NULL;Virtual Pokémon;60;70;65;85;75;40;36.5;0.8;1;0
+138;Omanyte;Omniteオムナイト;rock;water;Spiral Pokémon;40;100;35;90;55;35;7.5;0.4;1;0
+139;Omastar;Omstarオムスター;rock;water;Spiral Pokémon;60;125;70;115;70;55;35;1;1;0
+140;Kabuto;Kabutoカブト;rock;water;Shellfish Pokémon;80;90;30;55;45;55;11.5;0.5;1;0
+141;Kabutops;Kabutopsカブトプス;rock;water;Shellfish Pokémon;115;105;60;65;70;80;40.5;1.3;1;0
+142;Aerodactyl;Pteraプテラ;rock;flying;Fossil Pokémon;135;85;80;70;95;150;59;1.8;1;0
+143;Snorlax;Kabigonカビゴン;normal;NULL;Sleeping Pokémon;110;65;160;65;110;30;460;2.1;1;0
+144;Articuno;Freezerフリーザー;ice;flying;Freeze Pokémon;85;100;90;95;125;85;55.4;1.7;1;1
+145;Zapdos;Thunderサンダー;electric;flying;Electric Pokémon;90;85;90;125;90;100;52.6;1.6;1;1
+146;Moltres;Fireファイヤー;fire;flying;Flame Pokémon;100;90;90;125;85;90;60;2;1;1
+147;Dratini;Miniryuミニリュウ;dragon;NULL;Dragon Pokémon;64;45;41;50;50;50;3.3;1.8;1;0
+148;Dragonair;Hakuryuハクリュー;dragon;NULL;Dragon Pokémon;84;65;61;70;70;70;16.5;4;1;0
+149;Dragonite;Kairyuカイリュー;dragon;flying;Dragon Pokémon;134;95;91;100;100;80;210;2.2;1;0
+150;Mewtwo;Mewtwoミュウツー;psychic;NULL;Genetic Pokémon;150;70;106;194;120;140;122;2;1;1
+151;Mew;Mewミュウ;psychic;NULL;New Species Pokémon;100;100;100;100;100;100;4;0.4;1;1
+152;Chikorita;Chicoritaチコリータ;grass;NULL;Leaf Pokémon;49;65;45;49;65;45;6.4;0.9;2;0
+153;Bayleef;Bayleafベイリーフ;grass;NULL;Leaf Pokémon;62;80;60;63;80;60;15.8;1.2;2;0
+154;Meganium;Meganiumメガニウム;grass;NULL;Herb Pokémon;82;100;80;83;100;80;100.5;1.8;2;0
+155;Cyndaquil;Hinoarashiヒノアラシ;fire;NULL;Fire Mouse Pokémon;52;43;39;60;50;65;7.9;0.5;2;0
+156;Quilava;Magmarashiマグマラシ;fire;NULL;Volcano Pokémon;64;58;58;80;65;80;19;0.9;2;0
+157;Typhlosion;Bakphoonバクフーン;fire;NULL;Volcano Pokémon;84;78;78;109;85;100;79.5;1.7;2;0
+158;Totodile;Waninokoワニノコ;water;NULL;Big Jaw Pokémon;65;64;50;44;48;43;9.5;0.6;2;0
+159;Croconaw;Alligatesアリゲイツ;water;NULL;Big Jaw Pokémon;80;80;65;59;63;58;25;1.1;2;0
+160;Feraligatr;Ordileオーダイル;water;NULL;Big Jaw Pokémon;105;100;85;79;83;78;88.8;2.3;2;0
+161;Sentret;Otachiオタチ;normal;NULL;Scout Pokémon;46;34;35;35;45;20;6;0.8;2;0
+162;Furret;Ootachiオオタチ;normal;NULL;Long Body Pokémon;76;64;85;45;55;90;32.5;1.8;2;0
+163;Hoothoot;Hohoホーホー;normal;flying;Owl Pokémon;30;30;60;36;56;50;21.2;0.7;2;0
+164;Noctowl;Yorunozukuヨルノズク;normal;flying;Owl Pokémon;50;50;100;86;96;70;40.8;1.6;2;0
+165;Ledyba;Redibaレディバ;bug;flying;Five Star Pokémon;20;30;40;40;80;55;10.8;1;2;0
+166;Ledian;Redianレディアン;bug;flying;Five Star Pokémon;35;50;55;55;110;85;35.6;1.4;2;0
+167;Spinarak;Itomaruイトマル;bug;poison;String Spit Pokémon;60;40;40;40;40;30;8.5;0.5;2;0
+168;Ariados;Ariadosアリアドス;bug;poison;Long Leg Pokémon;90;70;70;60;70;40;33.5;1.1;2;0
+169;Crobat;Crobatクロバット;poison;flying;Bat Pokémon;90;80;85;70;80;130;75;1.8;2;0
+170;Chinchou;Chonchieチョンチー;water;electric;Angler Pokémon;38;38;75;56;56;67;12;0.5;2;0
+171;Lanturn;Lanternランターン;water;electric;Light Pokémon;58;58;125;76;76;67;22.5;1.2;2;0
+172;Pichu;Pichuピチュー;electric;NULL;Tiny Mouse Pokémon;40;15;20;35;35;60;2;0.3;2;0
+173;Cleffa;Pyピィ;fairy;NULL;Star Shape Pokémon;25;28;50;45;55;15;3;0.3;2;0
+174;Igglybuff;Pupurinププリン;normal;fairy;Balloon Pokémon;30;15;90;40;20;15;1;0.3;2;0
+175;Togepi;Togepyトゲピー;fairy;NULL;Spike Ball Pokémon;20;65;35;40;65;20;1.5;0.3;2;0
+176;Togetic;Togechickトゲチック;fairy;flying;Happiness Pokémon;40;85;55;80;105;40;3.2;0.6;2;0
+177;Natu;Natyネイティ;psychic;flying;Little Bird Pokémon;50;45;40;70;45;70;2;0.2;2;0
+178;Xatu;Natioネイティオ;psychic;flying;Mystic Pokémon;75;70;65;95;70;95;15;1.5;2;0
+179;Mareep;Merriepメリープ;electric;NULL;Wool Pokémon;40;40;55;65;45;35;7.8;0.6;2;0
+180;Flaaffy;Mokokoモココ;electric;NULL;Wool Pokémon;55;55;70;80;60;45;13.3;0.8;2;0
+181;Ampharos;Denryuデンリュウ;electric;NULL;Light Pokémon;95;105;90;165;110;45;61.5;1.4;2;0
+182;Bellossom;Kireihanaキレイハナ;grass;NULL;Flower Pokémon;80;95;75;90;100;50;5.8;0.4;2;0
+183;Marill;Marilマリル;water;fairy;Aquamouse Pokémon;20;50;70;20;50;40;8.5;0.4;2;0
+184;Azumarill;Marilliマリルリ;water;fairy;Aquarabbit Pokémon;50;80;100;60;80;50;28.5;0.8;2;0
+185;Sudowoodo;Usokkieウソッキー;rock;NULL;Imitation Pokémon;100;115;70;30;65;30;38;1.2;2;0
+186;Politoed;Nyorotonoニョロトノ;water;NULL;Frog Pokémon;75;75;90;90;100;70;33.9;1.1;2;0
+187;Hoppip;Haneccoハネッコ;grass;flying;Cottonweed Pokémon;35;40;35;35;55;50;0.5;0.4;2;0
+188;Skiploom;Popoccoポポッコ;grass;flying;Cottonweed Pokémon;45;50;55;45;65;80;1;0.6;2;0
+189;Jumpluff;Wataccoワタッコ;grass;flying;Cottonweed Pokémon;55;70;75;55;95;110;3;0.8;2;0
+190;Aipom;Eipamエイパム;normal;NULL;Long Tail Pokémon;70;55;55;40;55;85;11.5;0.8;2;0
+191;Sunkern;Himanutsヒマナッツ;grass;NULL;Seed Pokémon;30;30;30;30;30;30;1.8;0.3;2;0
+192;Sunflora;Kimawariキマワリ;grass;NULL;Sun Pokémon;75;55;75;105;85;30;8.5;0.8;2;0
+193;Yanma;Yanyanmaヤンヤンマ;bug;flying;Clear Wing Pokémon;65;45;65;75;45;95;38;1.2;2;0
+194;Wooper;Upahウパー;water;ground;Water Fish Pokémon;45;45;55;25;25;15;8.5;0.4;2;0
+195;Quagsire;Nuohヌオー;water;ground;Water Fish Pokémon;85;85;95;65;65;35;75;1.4;2;0
+196;Espeon;Eifieエーフィ;psychic;NULL;Sun Pokémon;65;60;65;130;95;110;26.5;0.9;2;0
+197;Umbreon;Blackyブラッキー;dark;NULL;Moonlight Pokémon;65;110;95;60;130;65;27;1;2;0
+198;Murkrow;Yamikarasuヤミカラス;dark;flying;Darkness Pokémon;85;42;60;85;42;91;2.1;0.5;2;0
+199;Slowking;Yadokingヤドキング;water;psychic;Royal Pokémon;75;80;95;100;110;30;79.5;2;2;0
+200;Misdreavus;Mumaムウマ;ghost;NULL;Screech Pokémon;60;60;60;85;85;85;1;0.7;2;0
+201;Unown;Unknownアンノーン;psychic;NULL;Symbol Pokémon;72;48;48;72;48;48;5;0.5;2;0
+202;Wobbuffet;Sonansソーナンス;psychic;NULL;Patient Pokémon;33;58;190;33;58;33;28.5;1.3;2;0
+203;Girafarig;Kirinrikiキリンリキ;normal;psychic;Long Neck Pokémon;80;65;70;90;65;85;41.5;1.5;2;0
+204;Pineco;Kunugidamaクヌギダマ;bug;NULL;Bagworm Pokémon;65;90;50;35;35;15;7.2;0.6;2;0
+205;Forretress;Foretosフォレトス;bug;steel;Bagworm Pokémon;90;140;75;60;60;40;125.8;1.2;2;0
+206;Dunsparce;Nokocchiノコッチ;normal;NULL;Land Snake Pokémon;70;70;100;65;65;45;14;1.5;2;0
+207;Gligar;Gligerグライガー;ground;flying;Flyscorpion Pokémon;75;105;65;35;65;85;64.8;1.1;2;0
+208;Steelix;Haganeilハガネール;steel;ground;Iron Snake Pokémon;125;230;75;55;95;30;400;9.2;2;0
+209;Snubbull;Buluブルー;fairy;NULL;Fairy Pokémon;80;50;60;40;40;30;7.8;0.6;2;0
+210;Granbull;Granbuluグランブル;fairy;NULL;Fairy Pokémon;120;75;90;60;60;45;48.7;1.4;2;0
+211;Qwilfish;Harysenハリーセン;water;poison;Balloon Pokémon;95;85;65;55;55;85;3.9;0.5;2;0
+212;Scizor;Hassamハッサム;bug;steel;Pincer Pokémon;150;140;70;65;100;75;118;1.8;2;0
+213;Shuckle;Tsubotsuboツボツボ;bug;rock;Mold Pokémon;10;230;20;10;230;5;20.5;0.6;2;0
+214;Heracross;Heracrosヘラクロス;bug;fighting;Singlehorn Pokémon;185;115;80;40;105;75;54;1.5;2;0
+215;Sneasel;Nyulaニューラ;dark;ice;Sharp Claw Pokémon;95;55;55;35;75;115;28;0.9;2;0
+216;Teddiursa;Himegumaヒメグマ;normal;NULL;Little Bear Pokémon;80;50;60;50;50;40;8.8;0.6;2;0
+217;Ursaring;Ringumaリングマ;normal;NULL;Hibernator Pokémon;130;75;90;75;75;55;125.8;1.8;2;0
+218;Slugma;Magmagマグマッグ;fire;NULL;Lava Pokémon;40;40;40;70;40;20;35;0.7;2;0
+219;Magcargo;Magcargotマグカルゴ;fire;rock;Lava Pokémon;50;120;60;90;80;30;55;0.8;2;0
+220;Swinub;Urimooウリムー;ice;ground;Pig Pokémon;50;40;50;30;30;50;6.5;0.4;2;0
+221;Piloswine;Inomooイノムー;ice;ground;Swine Pokémon;100;80;100;60;60;50;55.8;1.1;2;0
+222;Corsola;Sunnygoサニーゴ;water;rock;Coral Pokémon;55;95;65;65;95;35;5;0.6;2;0
+223;Remoraid;Teppouoテッポウオ;water;NULL;Jet Pokémon;65;35;35;65;35;65;12;0.6;2;0
+224;Octillery;Okutankオクタン;water;NULL;Jet Pokémon;105;75;75;105;75;45;28.5;0.9;2;0
+225;Delibird;Delibirdデリバード;ice;flying;Delivery Pokémon;55;45;45;65;45;75;16;0.9;2;0
+226;Mantine;Mantainマンタイン;water;flying;Kite Pokémon;40;70;85;80;140;70;220;2.1;2;0
+227;Skarmory;Airmdエアームド;steel;flying;Armor Bird Pokémon;80;140;65;40;70;70;50.5;1.7;2;0
+228;Houndour;Delvilデルビル;dark;fire;Dark Pokémon;60;30;45;80;50;65;10.8;0.6;2;0
+229;Houndoom;Hellgarヘルガー;dark;fire;Dark Pokémon;90;90;75;140;90;115;35;1.4;2;0
+230;Kingdra;Kingdraキングドラ;water;dragon;Dragon Pokémon;95;95;75;95;95;85;152;1.8;2;0
+231;Phanpy;Gomazouゴマゾウ;ground;NULL;Long Nose Pokémon;60;60;90;40;40;40;33.5;0.5;2;0
+232;Donphan;Donfanドンファン;ground;NULL;Armor Pokémon;120;120;90;60;60;50;120;1.1;2;0
+233;Porygon2;Porygon2ポリゴン２;normal;NULL;Virtual Pokémon;80;90;85;105;95;60;32.5;0.6;2;0
+234;Stantler;Odoshishiオドシシ;normal;NULL;Big Horn Pokémon;95;62;73;85;65;85;71.2;1.4;2;0
+235;Smeargle;Dobleドーブル;normal;NULL;Painter Pokémon;20;35;55;20;45;75;58;1.2;2;0
+236;Tyrogue;Balkieバルキー;fighting;NULL;Scuffle Pokémon;35;35;35;35;35;35;21;0.7;2;0
+237;Hitmontop;Kapoererカポエラー;fighting;NULL;Handstand Pokémon;95;95;50;35;110;70;48;1.4;2;0
+238;Smoochum;Muchulムチュール;ice;psychic;Kiss Pokémon;30;15;45;85;65;65;6;0.4;2;0
+239;Elekid;Elekidエレキッド;electric;NULL;Electric Pokémon;63;37;45;65;55;95;23.5;0.6;2;0
+240;Magby;Bubyブビィ;fire;NULL;Live Coal Pokémon;75;37;45;70;55;83;21.4;0.7;2;0
+241;Miltank;Miltankミルタンク;normal;NULL;Milk Cow Pokémon;80;105;95;40;70;100;75.5;1.2;2;0
+242;Blissey;Happinasハピナス;normal;NULL;Happiness Pokémon;10;10;255;75;135;55;46.8;1.5;2;0
+243;Raikou;Raikouライコウ;electric;NULL;Thunder Pokémon;85;75;90;115;100;115;178;1.9;2;1
+244;Entei;Enteiエンテイ;fire;NULL;Volcano Pokémon;115;85;115;90;75;100;198;2.1;2;1
+245;Suicune;Suicuneスイクン;water;NULL;Aurora Pokémon;75;115;100;90;115;85;187;2;2;1
+246;Larvitar;Yogirasヨーギラス;rock;ground;Rock Skin Pokémon;64;50;50;45;50;41;72;0.6;2;0
+247;Pupitar;Sanagirasサナギラス;rock;ground;Hard Shell Pokémon;84;70;70;65;70;51;152;1.2;2;0
+248;Tyranitar;Bangirasバンギラス;rock;dark;Armor Pokémon;164;150;100;95;120;71;202;2;2;0
+249;Lugia;Lugiaルギア;psychic;flying;Diving Pokémon;90;130;106;90;154;110;216;5.2;2;1
+250;Ho-Oh;Hououホウオウ;fire;flying;Rainbow Pokémon;130;90;106;110;154;90;199;3.8;2;1
+251;Celebi;Celebiセレビィ;psychic;grass;Time Travel Pokémon;100;100;100;100;100;100;5;0.6;2;1
+252;Treecko;Kimoriキモリ;grass;NULL;Wood Gecko Pokémon;45;35;40;65;55;70;5;0.5;3;0
+253;Grovyle;Juptileジュプトル;grass;NULL;Wood Gecko Pokémon;65;45;50;85;65;95;21.6;0.9;3;0
+254;Sceptile;Jukainジュカイン;grass;NULL;Forest Pokémon;110;75;70;145;85;145;52.2;1.7;3;0
+255;Torchic;Achamoアチャモ;fire;NULL;Chick Pokémon;60;40;45;70;50;45;2.5;0.4;3;0
+256;Combusken;Wakasyamoワカシャモ;fire;fighting;Young Fowl Pokémon;85;60;60;85;60;55;19.5;0.9;3;0
+257;Blaziken;Bursyamoバシャーモ;fire;fighting;Blaze Pokémon;160;80;80;130;80;100;52;1.9;3;0
+258;Mudkip;Mizugorouミズゴロウ;water;NULL;Mud Fish Pokémon;70;50;50;50;50;40;7.6;0.4;3;0
+259;Marshtomp;Numacrawヌマクロー;water;ground;Mud Fish Pokémon;85;70;70;60;70;50;28;0.7;3;0
+260;Swampert;Laglargeラグラージ;water;ground;Mud Fish Pokémon;150;110;100;95;110;70;81.9;1.5;3;0
+261;Poochyena;Pochienaポチエナ;dark;NULL;Bite Pokémon;55;35;35;30;30;35;13.6;0.5;3;0
+262;Mightyena;Graenaグラエナ;dark;NULL;Bite Pokémon;90;70;70;60;60;70;37;1;3;0
+263;Zigzagoon;Jiguzagumaジグザグマ;normal;NULL;Tiny Racoon Pokémon;30;41;38;30;41;60;17.5;0.4;3;0
+264;Linoone;Massugumaマッスグマ;normal;NULL;Rush Pokémon;70;61;78;50;61;100;32.5;0.5;3;0
+265;Wurmple;Kemussoケムッソ;bug;NULL;Worm Pokémon;45;35;45;20;30;20;3.6;0.3;3;0
+266;Silcoon;Karasalisカラサリス;bug;NULL;Cocoon Pokémon;35;55;50;25;25;15;10;0.6;3;0
+267;Beautifly;Agehuntアゲハント;bug;flying;Butterfly Pokémon;70;50;60;100;50;65;28.4;1;3;0
+268;Cascoon;Mayuldマユルド;bug;NULL;Cocoon Pokémon;35;55;50;25;25;15;11.5;0.7;3;0
+269;Dustox;Dokucaleドクケイル;bug;poison;Poison Moth Pokémon;50;70;60;50;90;65;31.6;1.2;3;0
+270;Lotad;Hassbohハスボー;water;grass;Water Weed Pokémon;30;30;40;40;50;30;2.6;0.5;3;0
+271;Lombre;Hasubreroハスブレロ;water;grass;Jolly Pokémon;50;50;60;60;70;50;32.5;1.2;3;0
+272;Ludicolo;Runpappaルンパッパ;water;grass;Carefree Pokémon;70;70;80;90;100;70;55;1.5;3;0
+273;Seedot;Tanebohタネボー;grass;NULL;Acorn Pokémon;40;50;40;30;30;30;4;0.5;3;0
+274;Nuzleaf;Konohanaコノハナ;grass;dark;Wily Pokémon;70;40;70;60;40;60;28;1;3;0
+275;Shiftry;Dirtengダーテング;grass;dark;Wickid Pokémon;100;60;90;90;60;80;59.6;1.3;3;0
+276;Taillow;Subameスバメ;normal;flying;TinySwallow Pokémon;55;30;40;30;30;85;2.3;0.3;3;0
+277;Swellow;Ohsubameオオスバメ;normal;flying;Swallow Pokémon;85;60;60;75;50;125;19.8;0.7;3;0
+278;Wingull;Camomeキャモメ;water;flying;Seagull Pokémon;30;30;40;55;30;85;9.5;0.6;3;0
+279;Pelipper;Pelipperペリッパー;water;flying;Water Bird Pokémon;50;100;60;95;70;65;28;1.2;3;0
+280;Ralts;Raltsラルトス;psychic;fairy;Feeling Pokémon;25;25;28;45;35;40;6.6;0.4;3;0
+281;Kirlia;Kirliaキルリア;psychic;fairy;Emotion Pokémon;35;35;38;65;55;50;20.2;0.8;3;0
+282;Gardevoir;Sirnightサーナイト;psychic;fairy;Embrace Pokémon;85;65;68;165;135;100;48.4;1.6;3;0
+283;Surskit;Ametamaアメタマ;bug;water;Pond Skater Pokémon;30;32;40;50;52;65;1.7;0.5;3;0
+284;Masquerain;Amemothアメモース;bug;flying;Eyeball Pokémon;60;62;70;100;82;80;3.6;0.8;3;0
+285;Shroomish;Kinococoキノココ;grass;NULL;Mushroom Pokémon;40;60;60;40;60;35;4.5;0.4;3;0
+286;Breloom;Kinogassaキノガッサ;grass;fighting;Mushroom Pokémon;130;80;60;60;60;70;39.2;1.2;3;0
+287;Slakoth;Namakeroナマケロ;normal;NULL;Slacker Pokémon;60;60;60;35;35;30;24;0.8;3;0
+288;Vigoroth;Yarukimonoヤルキモノ;normal;NULL;Wild Monkey Pokémon;80;80;80;55;55;90;46.5;1.4;3;0
+289;Slaking;Kekkingケッキング;normal;NULL;Lazy Pokémon;160;100;150;95;65;100;130.5;2;3;0
+290;Nincada;Tutininツチニン;bug;ground;Trainee Pokémon;45;90;31;30;30;40;5.5;0.5;3;0
+291;Ninjask;Tekkaninテッカニン;bug;flying;Ninja Pokémon;90;45;61;50;50;160;12;0.8;3;0
+292;Shedinja;Nukeninヌケニン;bug;ghost;Shed Pokémon;90;45;1;30;30;40;1.2;0.8;3;0
+293;Whismur;Gonyonyoゴニョニョ;normal;NULL;Whisper Pokémon;51;23;64;51;23;28;16.3;0.6;3;0
+294;Loudred;Dogohmbドゴーム;normal;NULL;Big Voice Pokémon;71;43;84;71;43;48;40.5;1;3;0
+295;Exploud;Bakuongバクオング;normal;NULL;Loud Noise Pokémon;91;63;104;91;73;68;84;1.5;3;0
+296;Makuhita;Makunoshitaマクノシタ;fighting;NULL;Guts Pokémon;60;30;72;20;30;25;86.4;1;3;0
+297;Hariyama;Hariteyamaハリテヤマ;fighting;NULL;Arm Thrust Pokémon;120;60;144;40;60;50;253.8;2.3;3;0
+298;Azurill;Ruririルリリ;normal;fairy;Polka Dot Pokémon;20;40;50;20;40;20;2;0.2;3;0
+299;Nosepass;Nosepassノズパス;rock;NULL;Compass Pokémon;45;135;30;45;90;30;97;1;3;0
+300;Skitty;Enecoエネコ;normal;NULL;Kitten Pokémon;45;45;50;35;35;50;11;0.6;3;0
+301;Delcatty;Enekororoエネコロロ;normal;NULL;Prim Pokémon;65;65;70;55;55;90;32.6;1.1;3;0
+302;Sableye;Yamiramiヤミラミ;dark;ghost;Darkness Pokémon;85;125;50;85;115;20;11;0.5;3;0
+303;Mawile;Kucheatクチート;steel;fairy;Deceiver Pokémon;105;125;50;55;95;50;11.5;0.6;3;0
+304;Aron;Cokodoraココドラ;steel;rock;Iron Armor Pokémon;70;100;50;40;40;30;60;0.4;3;0
+305;Lairon;Kodoraコドラ;steel;rock;Iron Armor Pokémon;90;140;60;50;50;40;120;0.9;3;0
+306;Aggron;Bossgodoraボスゴドラ;steel;rock;Iron Armor Pokémon;140;230;70;60;80;50;360;2.1;3;0
+307;Meditite;Asananアサナン;fighting;psychic;Meditate Pokémon;40;55;30;40;55;60;11.2;0.6;3;0
+308;Medicham;Charemチャーレム;fighting;psychic;Meditate Pokémon;100;85;60;80;85;100;31.5;1.3;3;0
+309;Electrike;Rakuraiラクライ;electric;NULL;Lightning Pokémon;45;40;40;65;40;65;15.2;0.6;3;0
+310;Manectric;Livoltライボルト;electric;NULL;Discharge Pokémon;75;80;70;135;80;135;40.2;1.5;3;0
+311;Plusle;Prasleプラスル;electric;NULL;Cheering Pokémon;50;40;60;85;75;95;4.2;0.4;3;0
+312;Minun;Minunマイナン;electric;NULL;Cheering Pokémon;40;50;60;75;85;95;4.2;0.4;3;0
+313;Volbeat;Barubeatバルビート;bug;NULL;Firefly Pokémon;73;75;65;47;85;85;17.7;0.7;3;0
+314;Illumise;Illumiseイルミーゼ;bug;NULL;Firefly Pokémon;47;75;65;73;85;85;17.7;0.6;3;0
+315;Roselia;Roseliaロゼリア;grass;poison;Thorn Pokémon;60;45;50;100;80;65;2;0.3;3;0
+316;Gulpin;Gokulinゴクリン;poison;NULL;Stomach Pokémon;43;53;70;43;53;40;10.3;0.4;3;0
+317;Swalot;Marunoomマルノーム;poison;NULL;Poison Bag Pokémon;73;83;100;73;83;55;80;1.7;3;0
+318;Carvanha;Kibanhaキバニア;water;dark;Savage Pokémon;90;20;45;65;20;65;20.8;0.8;3;0
+319;Sharpedo;Samehaderサメハダー;water;dark;Brutal Pokémon;140;70;70;110;65;105;88.8;1.8;3;0
+320;Wailmer;Hoerukoホエルコ;water;NULL;Ball Whale Pokémon;70;35;130;70;35;60;130;2;3;0
+321;Wailord;Whalohホエルオー;water;NULL;Float Whale Pokémon;90;45;170;90;45;60;398;14.5;3;0
+322;Numel;Donmelドンメル;fire;ground;Numb Pokémon;60;40;60;65;45;35;24;0.7;3;0
+323;Camerupt;Bakuudaバクーダ;fire;ground;Eruption Pokémon;120;100;70;145;105;20;220;1.9;3;0
+324;Torkoal;Cotoiseコータス;fire;NULL;Coal Pokémon;85;140;70;85;70;20;80.4;0.5;3;0
+325;Spoink;Banebooバネブー;psychic;NULL;Bounce Pokémon;25;35;60;70;80;60;30.6;0.7;3;0
+326;Grumpig;Boopigブーピッグ;psychic;NULL;Manipulate Pokémon;45;65;80;90;110;80;71.5;0.9;3;0
+327;Spinda;Patcheelパッチール;normal;NULL;Spot Panda Pokémon;60;60;60;60;60;60;5;1.1;3;0
+328;Trapinch;Nuckrarナックラー;ground;NULL;Ant Pit Pokémon;100;45;45;45;45;10;15;0.7;3;0
+329;Vibrava;Vibravaビブラーバ;ground;dragon;Vibration Pokémon;70;50;50;50;50;70;15.3;1.1;3;0
+330;Flygon;Flygonフライゴン;ground;dragon;Mystic Pokémon;100;80;80;80;80;100;82;2;3;0
+331;Cacnea;Saboneaサボネア;grass;NULL;Cactus Pokémon;85;40;50;85;40;35;51.3;0.4;3;0
+332;Cacturne;Noctusノクタス;grass;dark;Scarecrow Pokémon;115;60;70;115;60;55;77.4;1.3;3;0
+333;Swablu;Tylttoチルット;normal;flying;Cotton Bird Pokémon;40;60;45;40;75;50;1.2;0.4;3;0
+334;Altaria;Tyltalisチルタリス;dragon;flying;Humming Pokémon;110;110;75;110;105;80;20.6;1.1;3;0
+335;Zangoose;Zangooseザングース;normal;NULL;Cat Ferret Pokémon;115;60;73;60;60;90;40.3;1.3;3;0
+336;Seviper;Habunakeハブネーク;poison;NULL;Fang Snake Pokémon;100;60;73;100;60;65;52.5;2.7;3;0
+337;Lunatone;Lunatoneルナトーン;rock;psychic;Meteorite Pokémon;55;65;90;95;85;70;168;1;3;0
+338;Solrock;Solrockソルロック;rock;psychic;Meteorite Pokémon;95;85;90;55;65;70;154;1.2;3;0
+339;Barboach;Dojoachドジョッチ;water;ground;Whiskers Pokémon;48;43;50;46;41;60;1.9;0.4;3;0
+340;Whiscash;Namazunナマズン;water;ground;Whiskers Pokémon;78;73;110;76;71;60;23.6;0.9;3;0
+341;Corphish;Heiganiヘイガニ;water;NULL;Ruffian Pokémon;80;65;43;50;35;35;11.5;0.6;3;0
+342;Crawdaunt;Shizarigerシザリガー;water;dark;Rogue Pokémon;120;85;63;90;55;55;32.8;1.1;3;0
+343;Baltoy;Yajilonヤジロン;ground;psychic;Clay Doll Pokémon;40;55;40;40;70;55;21.5;0.5;3;0
+344;Claydol;Nendollネンドール;ground;psychic;Clay Doll Pokémon;70;105;60;70;120;75;108;1.5;3;0
+345;Lileep;Lilylaリリーラ;rock;grass;Sea Lily Pokémon;41;77;66;61;87;23;23.8;1;3;0
+346;Cradily;Yuradleユレイドル;rock;grass;Barnacle Pokémon;81;97;86;81;107;43;60.4;1.5;3;0
+347;Anorith;Anopthアノプス;rock;bug;Old Shrimp Pokémon;95;50;45;40;50;75;12.5;0.7;3;0
+348;Armaldo;Armaldoアーマルド;rock;bug;Plate Pokémon;125;100;75;70;80;45;68.2;1.5;3;0
+349;Feebas;Hinbassヒンバス;water;NULL;Fish Pokémon;15;20;20;10;55;80;7.4;0.6;3;0
+350;Milotic;Milokarossミロカロス;water;NULL;Tender Pokémon;60;79;95;100;125;81;162;6.2;3;0
+351;Castform;Powalenポワルン;normal;NULL;Weather Pokémon;70;70;70;70;70;70;0.8;0.3;3;0
+352;Kecleon;Kakureonカクレオン;normal;NULL;Color Swap Pokémon;90;70;60;60;120;40;22;1;3;0
+353;Shuppet;Kagebouzuカゲボウズ;ghost;NULL;Puppet Pokémon;75;35;44;63;33;45;2.3;0.6;3;0
+354;Banette;Juppetaジュペッタ;ghost;NULL;Marionette Pokémon;165;75;64;93;83;75;12.5;1.1;3;0
+355;Duskull;Yomawaruヨマワル;ghost;NULL;Requiem Pokémon;40;90;20;30;90;25;15;0.8;3;0
+356;Dusclops;Samayouruサマヨール;ghost;NULL;Beckon Pokémon;70;130;40;60;130;25;30.6;1.6;3;0
+357;Tropius;Tropiusトロピウス;grass;flying;Fruit Pokémon;68;83;99;72;87;51;100;2;3;0
+358;Chimecho;Chireanチリーン;psychic;NULL;Wind Chime Pokémon;50;80;75;95;90;65;1;0.6;3;0
+359;Absol;Absolアブソル;dark;NULL;Disaster Pokémon;150;60;65;115;60;115;47;1.2;3;0
+360;Wynaut;Sohnanoソーナノ;psychic;NULL;Bright Pokémon;23;48;95;23;48;23;14;0.6;3;0
+361;Snorunt;Yukiwarashiユキワラシ;ice;NULL;Snow Hat Pokémon;50;50;50;50;50;50;16.8;0.7;3;0
+362;Glalie;Onigohriオニゴーリ;ice;NULL;Face Pokémon;120;80;80;120;80;100;256.5;1.5;3;0
+363;Spheal;Tamazarashiタマザラシ;ice;water;Clap Pokémon;40;50;70;55;50;25;39.5;0.8;3;0
+364;Sealeo;Todogglerトドグラー;ice;water;Ball Roll Pokémon;60;70;90;75;70;45;87.6;1.1;3;0
+365;Walrein;Todoserugaトドゼルガ;ice;water;Ice Break Pokémon;80;90;110;95;90;65;150.6;1.4;3;0
+366;Clamperl;Pearluluパールル;water;NULL;Bivalve Pokémon;64;85;35;74;55;32;52.5;0.4;3;0
+367;Huntail;Huntailハンテール;water;NULL;Deep Sea Pokémon;104;105;55;94;75;52;27;1.7;3;0
+368;Gorebyss;Sakurabyssサクラビス;water;NULL;South Sea Pokémon;84;105;55;114;75;52;22.6;1.8;3;0
+369;Relicanth;Glanthジーランス;water;rock;Longevity Pokémon;90;130;100;45;65;55;23.4;1;3;0
+370;Luvdisc;Lovecusラブカス;water;NULL;Rendezvous Pokémon;30;55;43;40;65;97;8.7;0.6;3;0
+371;Bagon;Tatsubayタツベイ;dragon;NULL;Rock Head Pokémon;75;60;45;40;30;50;42.1;0.6;3;0
+372;Shelgon;Komoruuコモルー;dragon;NULL;Endurance Pokémon;95;100;65;60;50;50;110.5;1.1;3;0
+373;Salamence;Bohmanderボーマンダ;dragon;flying;Dragon Pokémon;145;130;95;120;90;120;102.6;1.5;3;0
+374;Beldum;Dumbberダンバル;steel;psychic;Iron Ball Pokémon;55;80;40;35;60;30;95.2;0.6;3;0
+375;Metang;Metangメタング;steel;psychic;Iron Claw Pokémon;75;100;60;55;80;50;202.5;1.2;3;0
+376;Metagross;Metagrossメタグロス;steel;psychic;Iron Leg Pokémon;145;150;80;105;110;110;550;1.6;3;0
+377;Regirock;Regirockレジロック;rock;NULL;Rock Peak Pokémon;100;200;80;50;100;50;230;1.7;3;1
+378;Regice;Regiceレジアイス;ice;NULL;Iceberg Pokémon;50;100;80;100;200;50;175;1.8;3;1
+379;Registeel;Registeelレジスチル;steel;NULL;Iron Pokémon;75;150;80;75;150;50;205;1.9;3;1
+380;Latias;Latiasラティアス;dragon;psychic;Eon Pokémon;100;120;80;140;150;110;40;1.4;3;1
+381;Latios;Latiosラティオス;dragon;psychic;Eon Pokémon;130;100;80;160;120;110;60;2;3;1
+382;Kyogre;Kyogreカイオーガ;water;NULL;Sea Basin Pokémon;150;90;100;180;160;90;352;4.5;3;1
+383;Groudon;Groudonグラードン;ground;NULL;Continent Pokémon;180;160;100;150;90;90;950;3.5;3;1
+384;Rayquaza;Rayquazaレックウザ;dragon;flying;Sky High Pokémon;180;100;105;180;100;115;206.5;7;3;1
+385;Jirachi;Jirachiジラーチ;steel;psychic;Wish Pokémon;100;100;100;100;100;100;1.1;0.3;3;1
+386;Deoxys;Deoxysデオキシス;psychic;NULL;DNA Pokémon;95;90;50;95;90;180;60.8;1.7;3;1
+387;Turtwig;Naetleナエトル;grass;NULL;Tiny Leaf Pokémon;68;64;55;45;55;31;10.2;0.4;4;0
+388;Grotle;Hayashigameハヤシガメ;grass;NULL;Grove Pokémon;89;85;75;55;65;36;97;1.1;4;0
+389;Torterra;Dodaitoseドダイトス;grass;ground;Continent Pokémon;109;105;95;75;85;56;310;2.2;4;0
+390;Chimchar;Hikozaruヒコザル;fire;NULL;Chimp Pokémon;58;44;44;58;44;61;6.2;0.5;4;0
+391;Monferno;Moukazaruモウカザル;fire;fighting;Playful Pokémon;78;52;64;78;52;81;22;0.9;4;0
+392;Infernape;Goukazaruゴウカザル;fire;fighting;Flame Pokémon;104;71;76;104;71;108;55;1.2;4;0
+393;Piplup;Pochamaポッチャマ;water;NULL;Penguin Pokémon;51;53;53;61;56;40;5.2;0.4;4;0
+394;Prinplup;Pottaishiポッタイシ;water;NULL;Penguin Pokémon;66;68;64;81;76;50;23;0.8;4;0
+395;Empoleon;Emperteエンペルト;water;steel;Emperor Pokémon;86;88;84;111;101;60;84.5;1.7;4;0
+396;Starly;Mukkuruムックル;normal;flying;Starling Pokémon;55;30;40;30;30;60;2;0.3;4;0
+397;Staravia;Mukubirdムクバード;normal;flying;Starling Pokémon;75;50;55;40;40;80;15.5;0.6;4;0
+398;Staraptor;Mukuhawkムクホーク;normal;flying;Predator Pokémon;120;70;85;50;60;100;24.9;1.2;4;0
+399;Bidoof;Bippaビッパ;normal;NULL;Plump Mouse Pokémon;45;40;59;35;40;31;20;0.5;4;0
+400;Bibarel;Beadaruビーダル;normal;water;Beaver Pokémon;85;60;79;55;60;71;31.5;1;4;0
+401;Kricketot;Korobohshiコロボーシ;bug;NULL;Cricket Pokémon;25;41;37;25;41;25;2.2;0.3;4;0
+402;Kricketune;Korotockコロトック;bug;NULL;Cricket Pokémon;85;51;77;55;51;65;25.5;1;4;0
+403;Shinx;Kolinkコリンク;electric;NULL;Flash Pokémon;65;34;45;40;34;45;9.5;0.5;4;0
+404;Luxio;Luxioルクシオ;electric;NULL;Spark Pokémon;85;49;60;60;49;60;30.5;0.9;4;0
+405;Luxray;Rentorarレントラー;electric;NULL;Gleam Eyes Pokémon;120;79;80;95;79;70;42;1.4;4;0
+406;Budew;Subomieスボミー;grass;poison;Bud Pokémon;30;35;40;50;70;55;1.2;0.2;4;0
+407;Roserade;Roseradeロズレイド;grass;poison;Bouquet Pokémon;70;65;60;125;105;90;14.5;0.9;4;0
+408;Cranidos;Zugaidosズガイドス;rock;NULL;Head Butt Pokémon;125;40;67;30;30;58;31.5;0.9;4;0
+409;Rampardos;Rampaldラムパルド;rock;NULL;Head Butt Pokémon;165;60;97;65;50;58;102.5;1.6;4;0
+410;Shieldon;Tatetopsタテトプス;rock;steel;Shield Pokémon;42;118;30;42;88;30;57;0.5;4;0
+411;Bastiodon;Toridepsトリデプス;rock;steel;Shield Pokémon;52;168;60;47;138;30;149.5;1.3;4;0
+412;Burmy;Minomucchiミノムッチ;bug;NULL;Bagworm Pokémon;29;45;40;29;45;36;3.4;0.2;4;0
+413;Wormadam;Minomadam (kusaki No Mino)ミノマダム;bug;grass;Bagworm Pokémon;69;95;60;69;95;36;6.5;0.5;4;0
+414;Mothim;Gamaleガーメイル;bug;flying;Moth Pokémon;94;50;70;94;50;66;23.3;0.9;4;0
+415;Combee;Mitsuhoneyミツハニー;bug;flying;Tiny Bee Pokémon;30;42;30;30;42;70;5.5;0.3;4;0
+416;Vespiquen;Beequenビークイン;bug;flying;Beehive Pokémon;80;102;70;80;102;40;38.5;1.2;4;0
+417;Pachirisu;Pachirisuパチリス;electric;NULL;EleSquirrel Pokémon;45;70;60;45;90;95;3.9;0.4;4;0
+418;Buizel;Buoyselブイゼル;water;NULL;Sea Weasel Pokémon;65;35;55;60;30;85;29.5;0.7;4;0
+419;Floatzel;Floazelフローゼル;water;NULL;Sea Weasel Pokémon;105;55;85;85;50;115;33.5;1.1;4;0
+420;Cherubi;Cherinboチェリンボ;grass;NULL;Cherry Pokémon;35;45;45;62;53;35;3.3;0.4;4;0
+421;Cherrim;Cherrimチェリム;grass;NULL;Blossom Pokémon;60;70;70;87;78;85;9.3;0.5;4;0
+422;Shellos;Karanakushiカラナクシ;water;NULL;Sea Slug Pokémon;48;48;76;57;62;34;6.3;0.3;4;0
+423;Gastrodon;Tritodonトリトドン;water;ground;Sea Slug Pokémon;83;68;111;92;82;39;29.9;0.9;4;0
+424;Ambipom;Etebothエテボース;normal;NULL;Long Tail Pokémon;100;66;75;60;66;115;20.3;1.2;4;0
+425;Drifloon;Fuwanteフワンテ;ghost;flying;Balloon Pokémon;50;34;90;60;44;70;1.2;0.4;4;0
+426;Drifblim;Fuwarideフワライド;ghost;flying;Blimp Pokémon;80;44;150;90;54;80;15;1.2;4;0
+427;Buneary;Mimirolミミロル;normal;NULL;Rabbit Pokémon;66;44;55;44;56;85;5.5;0.4;4;0
+428;Lopunny;Mimilopミミロップ;normal;NULL;Rabbit Pokémon;136;94;65;54;96;135;33.3;1.2;4;0
+429;Mismagius;Mumargiムウマージ;ghost;NULL;Magical Pokémon;60;60;60;105;105;105;4.4;0.9;4;0
+430;Honchkrow;Dongkarasuドンカラス;dark;flying;Big Boss Pokémon;125;52;100;105;52;71;27.3;0.9;4;0
+431;Glameow;Nyarmarニャルマー;normal;NULL;Catty Pokémon;55;42;49;42;37;85;3.9;0.5;4;0
+432;Purugly;Bunyattoブニャット;normal;NULL;Tiger Cat Pokémon;82;64;71;64;59;112;43.8;1;4;0
+433;Chingling;Lisyanリーシャン;psychic;NULL;Bell Pokémon;30;50;45;65;50;45;0.6;0.2;4;0
+434;Stunky;Skunpuuスカンプー;poison;dark;Skunk Pokémon;63;47;63;41;41;74;19.2;0.4;4;0
+435;Skuntank;Skutankスカタンク;poison;dark;Skunk Pokémon;93;67;103;71;61;84;38;1;4;0
+436;Bronzor;Dohmirrorドーミラー;steel;psychic;Bronze Pokémon;24;86;57;24;86;23;60.5;0.5;4;0
+437;Bronzong;Dohtakunドータクン;steel;psychic;Bronze Bell Pokémon;89;116;67;79;116;33;187;1.3;4;0
+438;Bonsly;Usohachiウソハチ;rock;NULL;Bonsai Pokémon;80;95;50;10;45;10;15;0.5;4;0
+439;Mime Jr.;Maneneマネネ;psychic;fairy;Mime Pokémon;25;45;20;70;90;60;13;0.6;4;0
+440;Happiny;Pinpukuピンプク;normal;NULL;Playhouse Pokémon;5;5;100;15;65;30;24.4;0.6;4;0
+441;Chatot;Perapペラップ;normal;flying;Music Note Pokémon;65;45;76;92;42;91;1.9;0.5;4;0
+442;Spiritomb;Mikarugeミカルゲ;ghost;dark;Forbidden Pokémon;92;108;50;92;108;35;108;1;4;0
+443;Gible;Fukamaruフカマル;dragon;ground;Land Shark Pokémon;70;45;58;40;45;42;20.5;0.7;4;0
+444;Gabite;Gabiteガバイト;dragon;ground;Cave Pokémon;90;65;68;50;55;82;56;1.4;4;0
+445;Garchomp;Gaburiasガブリアス;dragon;ground;Mach Pokémon;170;115;108;120;95;92;95;1.9;4;0
+446;Munchlax;Gonbeゴンベ;normal;NULL;Big Eater Pokémon;85;40;135;40;85;5;105;0.6;4;0
+447;Riolu;Rioluリオル;fighting;NULL;Emanation Pokémon;70;40;40;35;40;60;20.2;0.7;4;0
+448;Lucario;Lucarioルカリオ;fighting;steel;Aura Pokémon;145;88;70;140;70;112;54;1.2;4;0
+449;Hippopotas;Hippopotasヒポポタス;ground;NULL;Hippo Pokémon;72;78;68;38;42;32;49.5;0.8;4;0
+450;Hippowdon;Kabaldonカバルドン;ground;NULL;Heavyweight Pokémon;112;118;108;68;72;47;300;2;4;0
+451;Skorupi;Scorupiスコルピ;poison;bug;Scorpion Pokémon;50;90;40;30;55;65;12;0.8;4;0
+452;Drapion;Dorapionドラピオン;poison;dark;Ogre Scorp Pokémon;90;110;70;60;75;95;61.5;1.3;4;0
+453;Croagunk;Gureggruグレッグル;poison;fighting;Toxic Mouth Pokémon;61;40;48;61;40;50;23;0.7;4;0
+454;Toxicroak;Dokurogドクロッグ;poison;fighting;Toxic Mouth Pokémon;106;65;83;86;65;85;44.4;1.3;4;0
+455;Carnivine;Muskippaマスキッパ;grass;NULL;Bug Catcher Pokémon;100;72;74;90;72;46;27;1.4;4;0
+456;Finneon;Keikouoケイコウオ;water;NULL;Wing Fish Pokémon;49;56;49;49;61;66;7;0.4;4;0
+457;Lumineon;Neolantネオラント;water;NULL;Neon Pokémon;69;76;69;69;86;91;24;1.2;4;0
+458;Mantyke;Tamantaタマンタ;water;flying;Kite Pokémon;20;50;45;60;120;50;65;1;4;0
+459;Snover;Yukikaburiユキカブリ;grass;ice;Frosted Tree Pokémon;62;50;60;62;60;40;50.5;1;4;0
+460;Abomasnow;Yukinoohユキノオー;grass;ice;Frosted Tree Pokémon;132;105;90;132;105;30;135.5;2.2;4;0
+461;Weavile;Manyulaマニューラ;dark;ice;Sharp Claw Pokémon;120;65;70;45;85;125;34;1.1;4;0
+462;Magnezone;Jibacoilジバコイル;electric;steel;Magnet Area Pokémon;70;115;70;130;90;60;180;1.2;4;0
+463;Lickilicky;Berobeltベロベルト;normal;NULL;Licking Pokémon;85;95;110;80;95;50;140;1.7;4;0
+464;Rhyperior;Dosidonドサイドン;ground;rock;Drill Pokémon;140;130;115;55;55;40;282.8;2.4;4;0
+465;Tangrowth;Mojumboモジャンボ;grass;NULL;Vine Pokémon;100;125;100;110;50;50;128.6;2;4;0
+466;Electivire;Elekibleエレキブル;electric;NULL;Thunderbolt Pokémon;123;67;75;95;85;95;138.6;1.8;4;0
+467;Magmortar;Booburnブーバーン;fire;NULL;Blast Pokémon;95;67;75;125;95;83;68;1.6;4;0
+468;Togekiss;Togekissトゲキッス;fairy;flying;Jubilee Pokémon;50;95;85;120;115;80;38;1.5;4;0
+469;Yanmega;Megayanmaメガヤンマ;bug;flying;Ogre Darner Pokémon;76;86;86;116;56;95;51.5;1.9;4;0
+470;Leafeon;Leafiaリーフィア;grass;NULL;Verdant Pokémon;110;130;65;60;65;95;25.5;1;4;0
+471;Glaceon;Glaciaグレイシア;ice;NULL;Fresh Snow Pokémon;60;110;65;130;95;65;25.9;0.8;4;0
+472;Gliscor;Glionグライオン;ground;flying;Fang Scorp Pokémon;95;125;75;45;75;95;42.5;2;4;0
+473;Mamoswine;Mammooマンムー;ice;ground;Twin Tusk Pokémon;130;80;110;70;60;80;291;2.5;4;0
+474;Porygon-Z;Porygon-zポリゴンＺ;normal;NULL;Virtual Pokémon;80;70;85;135;75;90;34;0.9;4;0
+475;Gallade;Erureidoエルレイド;psychic;fighting;Blade Pokémon;165;95;68;65;115;110;52;1.6;4;0
+476;Probopass;Dainoseダイノーズ;rock;steel;Compass Pokémon;55;145;60;75;150;40;340;1.4;4;0
+477;Dusknoir;Yonoirヨノワール;ghost;NULL;Gripper Pokémon;100;135;45;65;135;45;106.6;2.2;4;0
+478;Froslass;Yukimenokoユキメノコ;ice;ghost;Snow Land Pokémon;80;70;70;80;70;110;26.6;1.3;4;0
+479;Rotom;Rotomロトム;electric;ghost;Plasma Pokémon;65;107;50;105;107;86;0.3;0.3;4;0
+480;Uxie;Yuxieユクシー;psychic;NULL;Knowledge Pokémon;75;130;75;75;130;95;0.3;0.3;4;1
+481;Mesprit;Emritエムリット;psychic;NULL;Emotion Pokémon;105;105;80;105;105;80;0.3;0.3;4;1
+482;Azelf;Agnomeアグノム;psychic;NULL;Willpower Pokémon;125;70;75;125;70;115;0.3;0.3;4;1
+483;Dialga;Dialgaディアルガ;steel;dragon;Temporal Pokémon;120;120;100;150;100;90;683;5.4;4;1
+484;Palkia;Palkiaパルキア;water;dragon;Spatial Pokémon;120;100;90;150;120;100;336;4.2;4;1
+485;Heatran;Heatranヒードラン;fire;steel;Lava Dome Pokémon;90;106;91;130;106;77;430;1.7;4;1
+486;Regigigas;Regigigasレジギガス;normal;NULL;Colossal Pokémon;160;110;110;80;110;100;420;3.7;4;1
+487;Giratina;Giratina (another Forme)ギラティナ;ghost;dragon;Renegade Pokémon;120;100;150;120;100;90;750;4.5;4;1
+488;Cresselia;Cresseliaクレセリア;psychic;NULL;Lunar Pokémon;70;120;120;75;130;85;85.6;1.5;4;1
+489;Phione;Phioneフィオネ;water;NULL;Sea Drifter Pokémon;80;80;80;80;80;80;3.1;0.4;4;0
+490;Manaphy;Manaphyマナフィ;water;NULL;Seafaring Pokémon;100;100;100;100;100;100;1.4;0.3;4;1
+491;Darkrai;Darkraiダークライ;dark;NULL;Pitch-Black Pokémon;90;90;70;135;90;125;50.5;1.5;4;1
+492;Shaymin;Shaymin (sky Forme)シェイミ;grass;grass;Gratitude Pokémon;103;75;100;120;75;127;2.1;0.2;4;1
+493;Arceus;Arceusアルセウス;normal;NULL;Alpha Pokémon;120;120;120;120;120;120;320;3.2;4;1
+494;Victini;Victiniビクティニ;psychic;fire;Victory Pokémon;100;100;100;100;100;100;4;0.4;5;1
+495;Snivy;Tsutarjaツタージャ;grass;NULL;Grass Snake Pokémon;45;55;45;45;55;63;8.1;0.6;5;0
+496;Servine;Janovyジャノビー;grass;NULL;Grass Snake Pokémon;60;75;60;60;75;83;16;0.8;5;0
+497;Serperior;Jalordaジャローダ;grass;NULL;Regal Pokémon;75;95;75;75;95;113;63;3.3;5;0
+498;Tepig;Pokabuポカブ;fire;NULL;Fire Pig Pokémon;63;45;65;45;45;45;9.9;0.5;5;0
+499;Pignite;Chaobooチャオブー;fire;fighting;Fire Pig Pokémon;93;55;90;70;55;55;55.5;1;5;0
+500;Emboar;Enbuohエンブオー;fire;fighting;Mega Fire Pig Pokémon;123;65;110;100;65;65;150;1.6;5;0
+501;Oshawott;Mijumaruミジュマル;water;NULL;Sea Otter Pokémon;55;45;55;63;45;45;5.9;0.5;5;0
+502;Dewott;Futachimaruフタチマル;water;NULL;Discipline Pokémon;75;60;75;83;60;60;24.5;0.8;5;0
+503;Samurott;Daikenkiダイケンキ;water;NULL;Formidable Pokémon;100;85;95;108;70;70;94.6;1.5;5;0
+504;Patrat;Minezumiミネズミ;normal;NULL;Scout Pokémon;55;39;45;35;39;42;11.6;0.5;5;0
+505;Watchog;Miruhogミルホッグ;normal;NULL;Lookout Pokémon;85;69;60;60;69;77;27;1.1;5;0
+506;Lillipup;Yorterrieヨーテリー;normal;NULL;Puppy Pokémon;60;45;45;25;45;55;4.1;0.4;5;0
+507;Herdier;Herderrieハーデリア;normal;NULL;Loyal Dog Pokémon;80;65;65;35;65;60;14.7;0.9;5;0
+508;Stoutland;Moolandムーランド;normal;NULL;Big-Hearted Pokémon;110;90;85;45;90;80;61;1.2;5;0
+509;Purrloin;Choronekoチョロネコ;dark;NULL;Devious Pokémon;50;37;41;50;37;66;10.1;0.4;5;0
+510;Liepard;Lepardasレパルダス;dark;NULL;Cruel Pokémon;88;50;64;88;50;106;37.5;1.1;5;0
+511;Pansage;Yanappuヤナップ;grass;NULL;Grass Monkey Pokémon;53;48;50;53;48;64;10.5;0.6;5;0
+512;Simisage;Yanakkieヤナッキー;grass;NULL;Thorn Monkey Pokémon;98;63;75;98;63;101;30.5;1.1;5;0
+513;Pansear;Baoppuバオップ;fire;NULL;High Temp Pokémon;53;48;50;53;48;64;11;0.6;5;0
+514;Simisear;Baokkieバオッキー;fire;NULL;Ember Pokémon;98;63;75;98;63;101;28;1;5;0
+515;Panpour;Hiyappuヒヤップ;water;NULL;Spray Pokémon;53;48;50;53;48;64;13.5;0.6;5;0
+516;Simipour;Hiyakkieヒヤッキー;water;NULL;Geyser Pokémon;98;63;75;98;63;101;29;1;5;0
+517;Munna;Munnaムンナ;psychic;NULL;Dream Eater Pokémon;25;45;76;67;55;24;23.3;0.6;5;0
+518;Musharna;Musharnaムシャーナ;psychic;NULL;Drowsing Pokémon;55;85;116;107;95;29;60.5;1.1;5;0
+519;Pidove;Mamepatoマメパト;normal;flying;Tiny Pigeon Pokémon;55;50;50;36;30;43;2.1;0.3;5;0
+520;Tranquill;Hatobohハトーボー;normal;flying;Wild Pigeon Pokémon;77;62;62;50;42;65;15;0.6;5;0
+521;Unfezant;Kenhallowケンホロウ;normal;flying;Proud Pokémon;115;80;80;65;55;93;29;1.2;5;0
+522;Blitzle;Shimamaシママ;electric;NULL;Electrified Pokémon;60;32;45;50;32;76;29.8;0.8;5;0
+523;Zebstrika;Zebraikaゼブライカ;electric;NULL;Thunderbolt Pokémon;100;63;75;80;63;116;79.5;1.6;5;0
+524;Roggenrola;Dangoroダンゴロ;rock;NULL;Mantle Pokémon;75;85;55;25;25;15;18;0.4;5;0
+525;Boldore;Gantleガントル;rock;NULL;Ore Pokémon;105;105;70;50;40;20;102;0.9;5;0
+526;Gigalith;Gigaiathギガイアス;rock;NULL;Compressed Pokémon;135;130;85;60;80;25;260;1.7;5;0
+527;Woobat;Koromoriコロモリ;psychic;flying;Bat Pokémon;45;43;65;55;43;72;2.1;0.4;5;0
+528;Swoobat;Kokoromoriココロモリ;psychic;flying;Courting Pokémon;57;55;67;77;55;114;10.5;0.9;5;0
+529;Drilbur;Mogurewモグリュー;ground;NULL;Mole Pokémon;85;40;60;30;45;68;8.5;0.3;5;0
+530;Excadrill;Doryuzuドリュウズ;ground;steel;Subterrene Pokémon;135;60;110;50;65;88;40.4;0.7;5;0
+531;Audino;Tabunneタブンネ;normal;NULL;Hearing Pokémon;60;126;103;80;126;50;31;1.1;5;0
+532;Timburr;Dokkorerドッコラー;fighting;NULL;Muscular Pokémon;80;55;75;25;35;35;12.5;0.6;5;0
+533;Gurdurr;Dotekkotsuドテッコツ;fighting;NULL;Muscular Pokémon;105;85;85;40;50;40;40;1.2;5;0
+534;Conkeldurr;Roubushinローブシン;fighting;NULL;Muscular Pokémon;140;95;105;55;65;45;87;1.4;5;0
+535;Tympole;Otamaroオタマロ;water;NULL;Tadpole Pokémon;50;40;50;50;40;64;4.5;0.5;5;0
+536;Palpitoad;Gamagaruガマガル;water;ground;Vibration Pokémon;65;55;75;65;55;69;17;0.8;5;0
+537;Seismitoad;Gamagerogeガマゲロゲ;water;ground;Vibration Pokémon;95;75;105;85;75;74;62;1.5;5;0
+538;Throh;Nagekiナゲキ;fighting;NULL;Judo Pokémon;100;85;120;30;85;45;55.5;1.3;5;0
+539;Sawk;Dagekiダゲキ;fighting;NULL;Karate Pokémon;125;75;75;30;75;85;51;1.4;5;0
+540;Sewaddle;Kurumiruクルミル;bug;grass;Sewing Pokémon;53;70;45;40;60;42;2.5;0.3;5;0
+541;Swadloon;Kurumayuクルマユ;bug;grass;Leaf-Wrapped Pokémon;63;90;55;50;80;42;7.3;0.5;5;0
+542;Leavanny;Hahakomoriハハコモリ;bug;grass;Nurturing Pokémon;103;80;75;70;80;92;20.5;1.2;5;0
+543;Venipede;Fushideフシデ;bug;poison;Centipede Pokémon;45;59;30;30;39;57;5.3;0.4;5;0
+544;Whirlipede;Wheegaホイーガ;bug;poison;Curlipede Pokémon;55;99;40;40;79;47;58.5;1.2;5;0
+545;Scolipede;Pendrorペンドラー;bug;poison;Megapede Pokémon;100;89;60;55;69;112;200.5;2.5;5;0
+546;Cottonee;Monmenモンメン;grass;fairy;Cotton Puff Pokémon;27;60;40;37;50;66;0.6;0.3;5;0
+547;Whimsicott;Elfuunエルフーン;grass;fairy;Windveiled Pokémon;67;85;60;77;75;116;6.6;0.7;5;0
+548;Petilil;Churineチュリネ;grass;NULL;Bulb Pokémon;35;50;45;70;50;30;6.6;0.5;5;0
+549;Lilligant;Dredearドレディア;grass;NULL;Flowering Pokémon;60;75;70;110;75;90;16.3;1.1;5;0
+550;Basculin;Bassraoバスラオ;water;NULL;Hostile Pokémon;92;65;70;80;55;98;18;1;5;0
+551;Sandile;Megurocoメグロコ;ground;dark;Desert Croc Pokémon;72;35;50;35;35;65;15.2;0.7;5;0
+552;Krokorok;Waruvileワルビル;ground;dark;Desert Croc Pokémon;82;45;60;45;45;74;33.4;1;5;0
+553;Krookodile;Waruvialワルビアル;ground;dark;Intimidation Pokémon;117;80;95;65;70;92;96.3;1.5;5;0
+554;Darumaka;Darumakkaダルマッカ;fire;NULL;Zen Charm Pokémon;90;45;70;15;45;50;37.5;0.6;5;0
+555;Darmanitan;Hihidarumaヒヒダルマ;fire;fire;Blazing Pokémon;30;105;105;140;105;55;92.9;1.3;5;0
+556;Maractus;Maracacchiマラカッチ;grass;NULL;Cactus Pokémon;86;67;75;106;67;60;28;1;5;0
+557;Dwebble;Ishizumaiイシズマイ;bug;rock;Rock Inn Pokémon;65;85;50;35;35;55;14.5;0.3;5;0
+558;Crustle;Iwapalaceイワパレス;bug;rock;Stone Home Pokémon;105;125;70;65;75;45;200;1.4;5;0
+559;Scraggy;Zurugguズルッグ;dark;fighting;Shedding Pokémon;75;70;50;35;70;48;11.8;0.6;5;0
+560;Scrafty;Zuruzukinズルズキン;dark;fighting;Hoodlum Pokémon;90;115;65;45;115;58;30;1.1;5;0
+561;Sigilyph;Symbolerシンボラー;psychic;flying;Avianoid Pokémon;58;80;72;103;80;97;14;1.4;5;0
+562;Yamask;Desumasuデスマス;ghost;NULL;Spirit Pokémon;30;85;38;55;65;30;1.5;0.5;5;0
+563;Cofagrigus;Desukarnデスカーン;ghost;NULL;Coffin Pokémon;50;145;58;95;105;30;76.5;1.7;5;0
+564;Tirtouga;Protogaプロトーガ;water;rock;Prototurtle Pokémon;78;103;54;53;45;22;16.5;0.7;5;0
+565;Carracosta;Abagouraアバゴーラ;water;rock;Prototurtle Pokémon;108;133;74;83;65;32;81;1.2;5;0
+566;Archen;Archenアーケン;rock;flying;First Bird Pokémon;112;45;55;74;45;70;9.5;0.5;5;0
+567;Archeops;Archeosアーケオス;rock;flying;First Bird Pokémon;140;65;75;112;65;110;32;1.4;5;0
+568;Trubbish;Yabukuronヤブクロン;poison;NULL;Trash Bag Pokémon;50;62;50;40;62;65;31;0.6;5;0
+569;Garbodor;Dustdasダストダス;poison;NULL;Trash Heap Pokémon;95;82;80;60;82;75;107.3;1.9;5;0
+570;Zorua;Zoruaゾロア;dark;NULL;Tricky Fox Pokémon;65;40;40;80;40;65;12.5;0.7;5;0
+571;Zoroark;Zoroarkゾロアーク;dark;NULL;Illusion Fox Pokémon;105;60;60;120;60;105;81.1;1.6;5;0
+572;Minccino;Chillarmyチラーミィ;normal;NULL;Chinchilla Pokémon;50;40;55;40;40;75;5.8;0.4;5;0
+573;Cinccino;Chillaccinoチラチーノ;normal;NULL;Scarf Pokémon;95;60;75;65;60;115;7.5;0.5;5;0
+574;Gothita;Gothimuゴチム;psychic;NULL;Fixation Pokémon;30;50;45;55;65;45;5.8;0.4;5;0
+575;Gothorita;Gothimiruゴチミル;psychic;NULL;Manipulate Pokémon;45;70;60;75;85;55;18;0.7;5;0
+576;Gothitelle;Gothiruselleゴチルゼル;psychic;NULL;Astral Body Pokémon;55;95;70;95;110;65;44;1.5;5;0
+577;Solosis;Uniranユニラン;psychic;NULL;Cell Pokémon;30;40;45;105;50;20;1;0.3;5;0
+578;Duosion;Doublanダブラン;psychic;NULL;Mitosis Pokémon;40;50;65;125;60;30;8;0.6;5;0
+579;Reuniclus;Lanculusランクルス;psychic;NULL;Multiplying Pokémon;65;75;110;125;85;30;20.1;1;5;0
+580;Ducklett;Koaruhieコアルヒー;water;flying;Water Bird Pokémon;44;50;62;44;50;55;5.5;0.5;5;0
+581;Swanna;Swannaスワンナ;water;flying;White Bird Pokémon;87;63;75;87;63;98;24.2;1.3;5;0
+582;Vanillite;Vanipetiバニプッチ;ice;NULL;Fresh Snow Pokémon;50;50;36;65;60;44;5.7;0.4;5;0
+583;Vanillish;Vanirichバニリッチ;ice;NULL;Icy Snow Pokémon;65;65;51;80;75;59;41;1.1;5;0
+584;Vanilluxe;Baivanillaバイバニラ;ice;NULL;Snowstorm Pokémon;95;85;71;110;95;79;57.5;1.3;5;0
+585;Deerling;Shikijikaシキジカ;normal;grass;Season Pokémon;60;50;60;40;50;75;19.5;0.6;5;0
+586;Sawsbuck;Mebukijikaメブキジカ;normal;grass;Season Pokémon;100;70;80;60;70;95;92.5;1.9;5;0
+587;Emolga;Emongaエモンガ;electric;flying;Sky Squirrel Pokémon;75;60;55;75;60;103;5;0.4;5;0
+588;Karrablast;Kaburumoカブルモ;bug;NULL;Clamping Pokémon;75;45;50;40;45;60;5.9;0.5;5;0
+589;Escavalier;Chevargoシュバルゴ;bug;steel;Cavalry Pokémon;135;105;70;60;105;20;33;1;5;0
+590;Foongus;Tamagetakeタマゲタケ;grass;poison;Mushroom Pokémon;55;45;69;55;55;15;1;0.2;5;0
+591;Amoonguss;Morobareruモロバレル;grass;poison;Mushroom Pokémon;85;70;114;85;80;30;10.5;0.6;5;0
+592;Frillish;Pururillプルリル;water;ghost;Floating Pokémon;40;50;55;65;85;40;33;1.2;5;0
+593;Jellicent;Burungelブルンゲル;water;ghost;Floating Pokémon;60;70;100;85;105;60;135;2.2;5;0
+594;Alomomola;Mamanbouママンボウ;water;NULL;Caring Pokémon;75;80;165;40;45;65;31.6;1.2;5;0
+595;Joltik;Bachuruバチュル;bug;electric;Attaching Pokémon;47;50;50;57;50;65;0.6;0.1;5;0
+596;Galvantula;Dentulaデンチュラ;bug;electric;EleSpider Pokémon;77;60;70;97;60;108;14.3;0.8;5;0
+597;Ferroseed;Tesseedテッシード;grass;steel;Thorn Seed Pokémon;50;91;44;24;86;10;18.8;0.6;5;0
+598;Ferrothorn;Nutreyナットレイ;grass;steel;Thorn Pod Pokémon;94;131;74;54;116;20;110;1;5;0
+599;Klink;Giaruギアル;steel;NULL;Gear Pokémon;55;70;40;45;60;30;21;0.3;5;0
+600;Klang;Gigiaruギギアル;steel;NULL;Gear Pokémon;80;95;60;70;85;50;51;0.6;5;0
+601;Klinklang;Gigigiaruギギギアル;steel;NULL;Gear Pokémon;100;115;60;70;85;90;81;0.6;5;0
+602;Tynamo;Shibishirasuシビシラス;electric;NULL;EleFish Pokémon;55;40;35;45;40;60;0.3;0.2;5;0
+603;Eelektrik;Shibibeelシビビール;electric;NULL;EleFish Pokémon;85;70;65;75;70;40;22;1.2;5;0
+604;Eelektross;Shibirudonシビルドン;electric;NULL;EleFish Pokémon;115;80;85;105;80;50;80.5;2.1;5;0
+605;Elgyem;Ligrayリグレー;psychic;NULL;Cerebral Pokémon;55;55;55;85;55;30;9;0.5;5;0
+606;Beheeyem;Ohbemオーベム;psychic;NULL;Cerebral Pokémon;75;75;75;125;95;40;34.5;1;5;0
+607;Litwick;Hitomoshiヒトモシ;ghost;fire;Candle Pokémon;30;55;50;65;55;20;3.1;0.3;5;0
+608;Lampent;Lamplerランプラー;ghost;fire;Lamp Pokémon;40;60;60;95;60;55;13;0.6;5;0
+609;Chandelure;Chandelaシャンデラ;ghost;fire;Luring Pokémon;55;90;60;145;90;80;34.3;1;5;0
+610;Axew;Kibagoキバゴ;dragon;NULL;Tusk Pokémon;87;60;46;30;40;57;18;0.6;5;0
+611;Fraxure;Onondoオノンド;dragon;NULL;Axe Jaw Pokémon;117;70;66;40;50;67;36;1;5;0
+612;Haxorus;Ononokusオノノクス;dragon;NULL;Axe Jaw Pokémon;147;90;76;60;70;97;105.5;1.8;5;0
+613;Cubchoo;Kumasyunクマシュン;ice;NULL;Chill Pokémon;70;40;55;60;40;40;8.5;0.5;5;0
+614;Beartic;Tunbearツンベアー;ice;NULL;Freezing Pokémon;130;80;95;70;80;50;260;2.6;5;0
+615;Cryogonal;Freegeoフリージオ;ice;NULL;Crystallizing Pokémon;50;50;80;95;135;105;148;1.1;5;0
+616;Shelmet;Chobomakiチョボマキ;bug;NULL;Snail Pokémon;40;85;50;40;65;25;7.7;0.4;5;0
+617;Accelgor;Agilderアギルダー;bug;NULL;Shell Out Pokémon;70;40;80;100;60;145;25.3;0.8;5;0
+618;Stunfisk;Maggyoマッギョ;ground;electric;Trap Pokémon;66;84;109;81;99;32;11;0.7;5;0
+619;Mienfoo;Kojofuコジョフー;fighting;NULL;Martial Arts Pokémon;85;50;45;55;50;65;20;0.9;5;0
+620;Mienshao;Kojondoコジョンド;fighting;NULL;Martial Arts Pokémon;125;60;65;95;60;105;35.5;1.4;5;0
+621;Druddigon;Crimganクリムガン;dragon;NULL;Cave Pokémon;120;90;77;60;90;48;139;1.6;5;0
+622;Golett;Gobitゴビット;ground;ghost;Automaton Pokémon;74;50;59;35;50;35;92;1;5;0
+623;Golurk;Goloogゴルーグ;ground;ghost;Automaton Pokémon;124;80;89;55;80;55;330;2.8;5;0
+624;Pawniard;Komatanaコマタナ;dark;steel;Sharp Blade Pokémon;85;70;45;40;40;60;10.2;0.5;5;0
+625;Bisharp;Kirikizanキリキザン;dark;steel;Sword Blade Pokémon;125;100;65;60;70;70;70;1.6;5;0
+626;Bouffalant;Buffronバッフロン;normal;NULL;Bash Buffalo Pokémon;110;95;95;40;95;55;94.6;1.6;5;0
+627;Rufflet;Washibonワシボン;normal;flying;Eaglet Pokémon;83;50;70;37;50;60;10.5;0.5;5;0
+628;Braviary;Warrgleウォーグル;normal;flying;Valiant Pokémon;123;75;100;57;75;80;41;1.5;5;0
+629;Vullaby;Valchaiバルチャイ;dark;flying;Diapered Pokémon;55;75;70;45;65;60;9;0.5;5;0
+630;Mandibuzz;Vulginaバルジーナ;dark;flying;Bone Vulture Pokémon;65;105;110;55;95;80;39.5;1.2;5;0
+631;Heatmor;Kuitaranクイタラン;fire;NULL;Anteater Pokémon;97;66;85;105;66;65;58;1.4;5;0
+632;Durant;Aiantアイアント;bug;steel;Iron Ant Pokémon;109;112;58;48;48;109;33;0.3;5;0
+633;Deino;Monozuモノズ;dark;dragon;Irate Pokémon;65;50;52;45;50;38;17.3;0.8;5;0
+634;Zweilous;Diheadジヘッド;dark;dragon;Hostile Pokémon;85;70;72;65;70;58;50;1.4;5;0
+635;Hydreigon;Sazandoraサザンドラ;dark;dragon;Brutal Pokémon;105;90;92;125;90;98;160;1.8;5;0
+636;Larvesta;Merlarvaメラルバ;bug;fire;Torch Pokémon;85;55;55;50;55;60;28.8;1.1;5;0
+637;Volcarona;Ulgamothウルガモス;bug;fire;Sun Pokémon;60;65;85;135;105;100;46;1.6;5;0
+638;Cobalion;Cobalonコバルオン;steel;fighting;Iron Will Pokémon;90;129;91;90;72;108;250;2.1;5;1
+639;Terrakion;Terrakionテラキオン;rock;fighting;Cavern Pokémon;129;90;91;72;90;108;260;1.9;5;1
+640;Virizion;Virizionビリジオン;grass;fighting;Grassland Pokémon;90;72;91;90;129;108;200;2;5;1
+641;Tornadus;Tornelos (keshin Forme)トルネロス;flying;NULL;Cyclone Pokémon;100;80;79;110;90;121;63;1.5;5;1
+642;Thundurus;Voltolos (keshin Forme)ボルトロス;electric;flying;Bolt Strike Pokémon;105;70;79;145;80;101;61;1.5;5;1
+643;Reshiram;Reshiramレシラム;dragon;fire;Vast White Pokémon;120;100;100;150;120;90;330;3.2;5;1
+644;Zekrom;Zekromゼクロム;dragon;electric;Deep Black Pokémon;150;120;100;120;100;90;345;2.9;5;1
+645;Landorus;Landlos (keshin Forme)ランドロス;ground;flying;Abundance Pokémon;145;90;89;105;80;91;68;1.5;5;1
+646;Kyurem;Kyuremキュレム;dragon;ice;Boundary Pokémon;120;90;125;170;100;95;325;3;5;1
+647;Keldeo;Keldeo (itsumo No Sugata)ケルディオ;water;fighting;Colt Pokémon;72;90;91;129;90;108;48.5;1.4;5;1
+648;Meloetta;Meloetta (step Forme)メロエッタ;normal;psychic;Melody Pokémon;128;90;100;77;77;128;6.5;0.6;5;1
+649;Genesect;Genesectゲノセクト;bug;steel;Paleozoic Pokémon;120;95;71;120;95;99;82.5;1.5;5;1
+650;Chespin;Harimaronハリマロン;grass;NULL;Spiky Nut Pokémon;61;65;56;48;45;38;9;0.4;6;0
+651;Quilladin;Hariborgハリボーグ;grass;NULL;Spiny Armor Pokémon;78;95;61;56;58;57;29;0.7;6;0
+652;Chesnaught;Brigarronブリガロン;grass;fighting;Spiny Armor Pokémon;107;122;88;74;75;64;90;1.6;6;0
+653;Fennekin;Fokkoフォッコ;fire;NULL;Fox Pokémon;45;40;40;62;60;60;9.4;0.4;6;0
+654;Braixen;Tairenarテールナー;fire;NULL;Fox Pokémon;59;58;59;90;70;73;14.5;1;6;0
+655;Delphox;Mahoxyマフォクシー;fire;psychic;Fox Pokémon;69;72;75;114;100;104;39;1.5;6;0
+656;Froakie;Keromatsuケロマツ;water;NULL;Bubble Frog Pokémon;56;40;41;62;44;71;7;0.3;6;0
+657;Frogadier;Gekogashiraゲコガシラ;water;NULL;Bubble Frog Pokémon;63;52;54;83;56;97;10.9;0.6;6;0
+658;Greninja;Gekkougaゲッコウガ;water;dark;Ninja Pokémon;145;67;72;153;71;132;40;1.5;6;0
+659;Bunnelby;Horubeeホルビー;normal;NULL;Digging Pokémon;36;38;38;32;36;57;5;0.4;6;0
+660;Diggersby;Horudoホルード;normal;ground;Digging Pokémon;56;77;85;50;77;78;42.4;1;6;0
+661;Fletchling;Yayakomaヤヤコマ;normal;flying;Tiny Robin Pokémon;50;43;45;40;38;62;1.7;0.3;6;0
+662;Fletchinder;Hinoyakomaヒノヤコマ;fire;flying;Ember Pokémon;73;55;62;56;52;84;16;0.7;6;0
+663;Talonflame;Fiarrowファイアロー;fire;flying;Scorching Pokémon;81;71;78;74;69;126;24.5;1.2;6;0
+664;Scatterbug;Kofukimushiコフキムシ;bug;NULL;Scatterdust Pokémon;35;40;38;27;25;35;2.5;0.3;6;0
+665;Spewpa;Kofuuraiコフーライ;bug;NULL;Scatterdust Pokémon;22;60;45;27;30;29;8.4;0.3;6;0
+666;Vivillon;Viviyonビビヨン;bug;flying;Scale Pokémon;52;50;80;90;50;89;17;1.2;6;0
+667;Litleo;Shishikoシシコ;fire;normal;Lion Cub Pokémon;50;58;62;73;54;72;13.5;0.6;6;0
+668;Pyroar;Kaenjishiカエンジシ;fire;normal;Royal Pokémon;68;72;86;109;66;106;81.5;1.5;6;0
+669;Flabébé;Flabebeフラベベ;fairy;NULL;Single Bloom Pokémon;38;39;44;61;79;42;0.1;0.1;6;0
+670;Floette;Floetteフラエッテ;fairy;NULL;Fairy Pokémon;65;67;74;125;128;92;0.9;0.2;6;0
+671;Florges;Florgesフラージェス;fairy;NULL;Garden Pokémon;65;68;78;112;154;75;10;1.1;6;0
+672;Skiddo;Meecleメェークル;grass;NULL;Mount Pokémon;65;48;66;62;57;52;31;0.9;6;0
+673;Gogoat;Gogoatゴーゴート;grass;NULL;Mount Pokémon;100;62;123;97;81;68;91;1.7;6;0
+674;Pancham;Yanchamヤンチャム;fighting;NULL;Playful Pokémon;82;62;67;46;48;43;8;0.6;6;0
+675;Pangoro;Gorondaゴロンダ;fighting;dark;Daunting Pokémon;124;78;95;69;71;58;136;2.1;6;0
+676;Furfrou;Trimmienトリミアン;normal;NULL;Poodle Pokémon;80;60;75;65;90;102;28;1.2;6;0
+677;Espurr;Nyasperニャスパー;psychic;NULL;Restraint Pokémon;48;54;62;63;60;68;3.5;0.3;6;0
+678;Meowstic;Nyaonixニャオニクス;psychic;NULL;Constraint Pokémon;48;76;74;83;81;104;8.5;0.6;6;0
+679;Honedge;Hitotsukiヒトツキ;steel;ghost;Sword Pokémon;80;100;45;35;37;28;2;0.8;6;0
+680;Doublade;Nidangillニダンギル;steel;ghost;Sword Pokémon;110;150;59;45;49;35;4.5;0.8;6;0
+681;Aegislash;Gillgardギルガルド;steel;ghost;Royal Sword Pokémon;150;50;60;150;50;60;53;1.7;6;0
+682;Spritzee;Shushupuシュシュプ;fairy;NULL;Perfume Pokémon;52;60;78;63;65;23;0.5;0.2;6;0
+683;Aromatisse;Frefuwanフレフワン;fairy;NULL;Fragrance Pokémon;72;72;101;99;89;29;15.5;0.8;6;0
+684;Swirlix;Peroppafuペロッパフ;fairy;NULL;Cotton Candy Pokémon;48;66;62;59;57;49;3.5;0.4;6;0
+685;Slurpuff;Peroreamペロリーム;fairy;NULL;Meringue Pokémon;80;86;82;85;75;72;5;0.8;6;0
+686;Inkay;Maaiikaマーイーカ;dark;psychic;Revolving Pokémon;54;53;53;37;46;45;3.5;0.4;6;0
+687;Malamar;Calamaneroカラマネロ;dark;psychic;Overturning Pokémon;92;88;86;68;75;73;47;1.5;6;0
+688;Binacle;Kameteteカメテテ;rock;water;Two-Handed Pokémon;52;67;42;39;56;50;31;0.5;6;0
+689;Barbaracle;Gamenodesガメノデス;rock;water;Collective Pokémon;105;115;72;54;86;68;96;1.3;6;0
+690;Skrelp;Kuzumoクズモー;poison;water;Mock Kelp Pokémon;60;60;50;60;60;30;7.3;0.5;6;0
+691;Dragalge;Dramidoroドラミドロ;poison;dragon;Mock Kelp Pokémon;75;90;65;97;123;44;81.5;1.8;6;0
+692;Clauncher;Udeppouウデッポウ;water;NULL;Water Gun Pokémon;53;62;50;58;63;44;8.3;0.5;6;0
+693;Clawitzer;Blosterブロスター;water;NULL;Howitzer Pokémon;73;88;71;120;89;59;35.3;1.3;6;0
+694;Helioptile;Erikiteruエリキテル;electric;normal;Generator Pokémon;38;33;44;61;43;70;6;0.5;6;0
+695;Heliolisk;Elezardエレザード;electric;normal;Generator Pokémon;55;52;62;109;94;109;21;1;6;0
+696;Tyrunt;Chigorasチゴラス;rock;dragon;Royal Heir Pokémon;89;77;58;45;45;48;26;0.8;6;0
+697;Tyrantrum;Gachigorasガチゴラス;rock;dragon;Despot Pokémon;121;119;82;69;59;71;270;2.5;6;0
+698;Amaura;Amarusアマルス;rock;ice;Tundra Pokémon;59;50;77;67;63;46;25.2;1.3;6;0
+699;Aurorus;Amarurugaアマルルガ;rock;ice;Tundra Pokémon;77;72;123;99;92;58;225;2.7;6;0
+700;Sylveon;Nymphiaニンフィア;fairy;NULL;Intertwining Pokémon;65;65;95;110;130;60;23.5;1;6;0
+701;Hawlucha;Luchabullルチャブル;fighting;flying;Wrestling Pokémon;92;75;78;74;63;118;21.5;0.8;6;0
+702;Dedenne;Dedenneデデンネ;electric;fairy;Antenna Pokémon;58;57;67;81;67;101;2.2;0.2;6;0
+703;Carbink;Melecieメレシー;rock;fairy;Jewel Pokémon;50;150;50;50;150;50;5.7;0.3;6;0
+704;Goomy;Numeraヌメラ;dragon;NULL;Soft Tissue Pokémon;50;35;45;55;75;40;2.8;0.3;6;0
+705;Sliggoo;Numeilヌメイル;dragon;NULL;Soft Tissue Pokémon;75;53;68;83;113;60;17.5;0.8;6;0
+706;Goodra;Numelgonヌメルゴン;dragon;NULL;Dragon Pokémon;100;70;90;110;150;80;150.5;2;6;0
+707;Klefki;Cleffyクレッフィ;steel;fairy;Key Ring Pokémon;80;91;57;80;87;75;3;0.2;6;0
+708;Phantump;Bokureiボクレー;ghost;grass;Stump Pokémon;70;48;43;50;60;38;7;0.4;6;0
+709;Trevenant;Ohrotオーロット;ghost;grass;Elder Tree Pokémon;110;76;85;65;82;56;71;1.5;6;0
+710;Pumpkaboo;Bakecchaバケッチャ;ghost;grass;Pumpkin Pokémon;66;70;59;44;55;41;15;0.8;6;0
+711;Gourgeist;Pumpjinパンプジン;ghost;grass;Pumpkin Pokémon;100;122;85;58;75;54;39;1.7;6;0
+712;Bergmite;Kachikohruカチコール;ice;NULL;Ice Chunk Pokémon;69;85;55;32;35;28;99.5;1;6;0
+713;Avalugg;Crebaseクレベース;ice;NULL;Iceberg Pokémon;117;184;95;44;46;28;505;2;6;0
+714;Noibat;Onbatオンバット;flying;dragon;Sound Wave Pokémon;30;35;40;45;40;55;8;0.5;6;0
+715;Noivern;Onvernオンバーン;flying;dragon;Sound Wave Pokémon;70;80;85;97;80;123;85;1.5;6;0
+716;Xerneas;Xerneasゼルネアス;fairy;NULL;Life Pokémon;131;95;126;131;98;99;215;3;6;1
+717;Yveltal;Yveltalイベルタル;dark;flying;Destruction Pokémon;131;95;126;131;98;99;203;5.8;6;1
+718;Zygarde;Zygarde (10% Forme)ジガルデ;dragon;ground;Order Pokémon;100;121;216;91;95;85;284.6;5;6;1
+719;Diancie;Diancieディアンシー;rock;fairy;Jewel Pokémon;160;110;50;160;110;110;8.8;0.7;6;1
+720;Hoopa;Hoopa (imashimerareshi Hoopa)フーパ;psychic;ghost;Mischief Pokémon (Confined)Djinn Pokémonn (Unbound);160;60;80;170;130;80;NULL;NONE;6;1
+721;Volcanion;Volcanionボルケニオン;fire;water;Steam Pokémon;110;120;80;130;90;70;195;1.7;6;1
+722;Rowlet;Mokurohモクロー;grass;flying;Grass Quill Pokémon;55;55;68;50;50;42;1.5;0.3;7;0
+723;Dartrix;Fukuthrowフクスロー;grass;flying;Blade Quill Pokémon;75;75;78;70;70;52;16;0.7;7;0
+724;Decidueye;Junaiperジュナイパー;grass;ghost;Arrow Quill Pokémon;107;75;78;100;100;70;36.6;1.6;7;0
+725;Litten;Nyabbyニャビー;fire;NULL;Fire Cat Pokémon;65;40;45;60;40;70;4.3;0.4;7;0
+726;Torracat;Nyaheatニャヒート;fire;NULL;Fire Cat Pokémon;85;50;65;80;50;90;25;0.7;7;0
+727;Incineroar;Gaogaenガオガエン;fire;dark;Heel Pokémon;115;90;95;80;90;60;83;1.8;7;0
+728;Popplio;Ashimariアシマリ;water;NULL;Sea Lion Pokémon;54;54;50;66;56;40;7.5;0.4;7;0
+729;Brionne;Osyamariオシャマリ;water;NULL;Pop Star Pokémon;69;69;60;91;81;50;17.5;0.6;7;0
+730;Primarina;Ashireneアシレーヌ;water;fairy;Soloist Pokémon;74;74;80;126;116;60;44;1.8;7;0
+731;Pikipek;Tsutsukeraツツケラ;normal;flying;Woodpecker Pokémon;75;30;35;30;30;65;1.2;0.3;7;0
+732;Trumbeak;Kerarappaケララッパ;normal;flying;Bugle Beak Pokémon;85;50;55;40;50;75;14.8;0.6;7;0
+733;Toucannon;Dodekabashiドデカバシ;normal;flying;Cannon Pokémon;120;75;80;75;75;60;26;1.1;7;0
+734;Yungoos;Youngooseヤングース;normal;NULL;Loitering Pokémon;70;30;48;30;30;45;6;0.4;7;0
+735;Gumshoos;Dekagooseデカグース;normal;NULL;Stakeout Pokémon;110;60;88;55;60;45;14.2;0.7;7;0
+736;Grubbin;Agojimushiアゴジムシ;bug;NULL;Larva Pokémon;62;45;47;55;45;46;4.4;0.4;7;0
+737;Charjabug;Dendimushiデンヂムシ;bug;electric;Battery Pokémon;82;95;57;55;75;36;10.5;0.5;7;0
+738;Vikavolt;Kuwagannonクワガノン;bug;electric;Stag Beetle Pokémon;70;90;77;145;75;43;45;1.5;7;0
+739;Crabrawler;Makenkaniマケンカニ;fighting;NULL;Boxing Pokémon;82;57;47;42;47;63;7;0.6;7;0
+740;Crabominable;Kekenkaniケケンカニ;fighting;ice;Woolly Crab Pokémon;132;77;97;62;67;43;180;1.7;7;0
+741;Oricorio;Odoridori (pachipachi Style)オドリドリ;fire;flying;Dancing Pokémon;70;70;75;98;70;93;3.4;0.6;7;0
+742;Cutiefly;Abulyアブリー;bug;fairy;Bee Fly Pokémon;45;40;40;55;40;84;0.2;0.1;7;0
+743;Ribombee;Aburibbonアブリボン;bug;fairy;Bee Fly Pokémon;55;60;60;95;70;124;0.5;0.2;7;0
+744;Rockruff;Iwankoイワンコ;rock;NULL;Puppy Pokémon;65;40;45;30;40;60;9.2;0.5;7;0
+745;Lycanroc;Lugarugan (mahiru No Sugata)ルガルガン;rock;NULL;Wolf Pokémon;115;75;85;55;75;82;NULL;NONE;7;0
+746;Wishiwashi;Yowashi (tandoku No Sugata)ヨワシ;water;NULL;Small Fry Pokémon;140;130;45;140;135;30;0.3;0.2;7;0
+747;Mareanie;Hidoideヒドイデ;poison;water;Brutal Star Pokémon;53;62;50;43;52;45;8;0.4;7;0
+748;Toxapex;Dohidoideドヒドイデ;poison;water;Brutal Star Pokémon;63;152;50;53;142;35;14.5;0.7;7;0
+749;Mudbray;Dorobankoドロバンコ;ground;NULL;Donkey Pokémon;100;70;70;45;55;45;110;1;7;0
+750;Mudsdale;Banbadoroバンバドロ;ground;NULL;Draft Horse Pokémon;125;100;100;55;85;35;920;2.5;7;0
+751;Dewpider;Shizukumoシズクモ;water;bug;Water Bubble Pokémon;40;52;38;40;72;27;4;0.3;7;0
+752;Araquanid;Onishizukumoオニシズクモ;water;bug;Water Bubble Pokémon;70;92;68;50;132;42;82;1.8;7;0
+753;Fomantis;Karikiriカリキリ;grass;NULL;Sickle Grass Pokémon;55;35;40;50;35;35;1.5;0.3;7;0
+754;Lurantis;Lalantesラランテス;grass;NULL;Bloom Sickle Pokémon;105;90;70;80;90;45;18.5;0.9;7;0
+755;Morelull;Nemasyuネマシュ;grass;fairy;Illuminating Pokémon;35;55;40;65;75;15;1.5;0.2;7;0
+756;Shiinotic;Mashadeマシェード;grass;fairy;Illuminating Pokémon;45;80;60;90;100;30;11.5;1;7;0
+757;Salandit;Yatoumoriヤトウモリ;poison;fire;Toxic Lizard Pokémon;44;40;48;71;40;77;4.8;0.6;7;0
+758;Salazzle;Ennewtエンニュート;poison;fire;Toxic Lizard Pokémon;64;60;68;111;60;117;22.2;1.2;7;0
+759;Stufful;Nuikogumaヌイコグマ;normal;fighting;Flailing Pokémon;75;50;70;45;50;50;6.8;0.5;7;0
+760;Bewear;Kiterugumaキテルグマ;normal;fighting;Strong Arm Pokémon;125;80;120;55;60;60;135;2.1;7;0
+761;Bounsweet;Amakajiアマカジ;grass;NULL;Fruit Pokémon;30;38;42;30;38;32;3.2;0.3;7;0
+762;Steenee;Amamaikoアママイコ;grass;NULL;Fruit Pokémon;40;48;52;40;48;62;8.2;0.7;7;0
+763;Tsareena;Amajoアマージョ;grass;NULL;Fruit Pokémon;120;98;72;50;98;72;21.4;1.2;7;0
+764;Comfey;Cuwawaキュワワー;fairy;NULL;Posy Picker Pokémon;52;90;51;82;110;100;0.3;0.1;7;0
+765;Oranguru;Yareyuutanヤレユータン;normal;psychic;Sage Pokémon;60;80;90;90;110;60;76;1.5;7;0
+766;Passimian;Nagetukesaruナゲツケサル;fighting;NULL;Teamwork Pokémon;120;90;100;40;60;80;82.8;2;7;0
+767;Wimpod;Kosokumushiコソクムシ;bug;water;Turn Tail Pokémon;35;40;25;20;30;80;12;0.5;7;0
+768;Golisopod;Gusokumushaグソクムシャ;bug;water;Hard Scale Pokémon;125;140;75;60;90;40;108;2;7;0
+769;Sandygast;Sunabaスナバァ;ghost;ground;Sand Heap Pokémon;55;80;55;70;45;15;70;0.5;7;0
+770;Palossand;Sirodethnaシロデスナ;ghost;ground;Sand Castle Pokémon;75;110;85;100;75;35;250;1.3;7;0
+771;Pyukumuku;Namakobushiナマコブシ;water;NULL;Sea Cucumber Pokémon;60;130;55;30;130;5;1.2;0.3;7;0
+772;Type: Null;Type: Nullタイプ：ヌル;normal;NULL;Synthetic Pokémon;95;95;95;95;95;59;120.5;1.9;7;0
+773;Silvally;Silvadyシルヴァディ;normal;NULL;Synthetic Pokémon;95;95;95;95;95;95;100.5;2.3;7;0
+774;Minior;Metenoメテノ;rock;flying;Meteor Pokémon;100;60;60;100;60;120;40;0.3;7;0
+775;Komala;Nekkoaraネッコアラ;normal;NULL;Drowsing Pokémon;115;65;65;75;95;65;19.9;0.4;7;0
+776;Turtonator;Bakugamesバクガメス;fire;dragon;Blast Turtle Pokémon;78;135;60;91;85;36;212;2;7;0
+777;Togedemaru;Togedemaruトゲデマル;electric;steel;Roly-Poly Pokémon;98;63;65;40;73;96;3.3;0.3;7;0
+778;Mimikyu;Mimikkyuミミッキュ;ghost;fairy;Disguise Pokémon;90;80;55;50;105;96;0.7;0.2;7;0
+779;Bruxish;Hagigishiriハギギシリ;water;psychic;Gnash Teeth Pokémon;105;70;68;70;70;92;19;0.9;7;0
+780;Drampa;Jijilongジジーロン;normal;dragon;Placid Pokémon;60;85;78;135;91;36;185;3;7;0
+781;Dhelmise;Dadarinダダリン;ghost;grass;Sea Creeper Pokémon;131;100;70;86;90;40;210;3.9;7;0
+782;Jangmo-o;Jyarakoジャラコ;dragon;NULL;Scaly Pokémon;55;65;45;45;45;45;29.7;0.6;7;0
+783;Hakamo-o;Jyarangoジャランゴ;dragon;fighting;Scaly Pokémon;75;90;55;65;70;65;47;1.2;7;0
+784;Kommo-o;Jyararangaジャラランガ;dragon;fighting;Scaly Pokémon;110;125;75;100;105;85;78.2;1.6;7;0
+785;Tapu Koko;Kapu-kokekoカプ・コケコ;electric;fairy;Land Spirit Pokémon;115;85;70;95;75;130;20.5;1.8;7;1
+786;Tapu Lele;Kapu-tetefuカプ・テテフ;psychic;fairy;Land Spirit Pokémon;85;75;70;130;115;95;18.6;1.2;7;1
+787;Tapu Bulu;Kapu-bululカプ・ブルル;grass;fairy;Land Spirit Pokémon;130;115;70;85;95;75;45.5;1.9;7;1
+788;Tapu Fini;Kapu-rehireカプ・レヒレ;water;fairy;Land Spirit Pokémon;75;115;70;95;130;85;21.2;1.3;7;1
+789;Cosmog;Cosmogコスモッグ;psychic;NULL;Nebula Pokémon;29;31;43;29;31;37;0.1;0.2;7;1
+790;Cosmoem;Cosmovumコスモウム;psychic;NULL;Protostar Pokémon;29;131;43;29;131;37;999.9;0.1;7;1
+791;Solgaleo;Solgaleoソルガレオ;psychic;steel;Sunne Pokémon;137;107;137;113;89;97;230;3.4;7;1
+792;Lunala;Lunalaルナアーラ;psychic;ghost;Moone Pokémon;113;89;137;137;107;97;120;4;7;1
+793;Nihilego;Uturoidウツロイド;rock;poison;Parasite Pokémon;53;47;109;127;131;103;55.5;1.2;7;1
+794;Buzzwole;Massivoonマッシブーン;bug;fighting;Swollen Pokémon;139;139;107;53;53;79;333.6;2.4;7;1
+795;Pheromosa;Pheroacheフェローチェ;bug;fighting;Lissome Pokémon;137;37;71;137;37;151;25;1.8;7;1
+796;Xurkitree;Denjyumokuデンジュモク;electric;NULL;Glowing Pokémon;89;71;83;173;71;83;100;3.8;7;1
+797;Celesteela;Tekkaguyaテッカグヤ;steel;flying;Launch Pokémon;101;103;97;107;101;61;999.9;9.2;7;1
+798;Kartana;Kamiturugiカミツルギ;grass;steel;Drawn Sword Pokémon;181;131;59;59;31;109;0.1;0.3;7;1
+799;Guzzlord;Akuzikingアクジキング;dark;dragon;Junkivore Pokémon;101;53;223;97;53;43;888;5.5;7;1
+800;Necrozma;Necrozmaネクロズマ;psychic;NULL;Prism Pokémon;107;101;97;127;89;79;230;2.4;7;1
+801;Magearna;Magearnaマギアナ;steel;fairy;Artificial Pokémon;95;115;80;130;115;65;80.5;1;7;1

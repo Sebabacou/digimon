@@ -9,13 +9,14 @@ SRC	=	src/main.c	\
 		src/research_lib.c  \
 		src/research_operation.c    \
 		src/research.c	\
-		src/sounds.c
+		src/sounds.c	\
+		src/parsing.c
 
 OBJ	=	$(SRC:.c=.o)
 
 NAME	=	zarbidex
 
-CFLAGS	=	-I include
+CFLAGS	=	-I include -Wall -Wextra
 
 CSFMLF	=	-lcsfml-window -lcsfml-system -lcsfml-graphics -lcsfml-audio
 

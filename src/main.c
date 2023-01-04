@@ -73,7 +73,9 @@ int main(void)
     sfSprite *s = sfSprite_create();
     sfEvent event;
 
+    parsing();
     sfRenderWindow_setFramerateLimit(w, 60);
     sfSprite_setTexture(s, background, sfTrue);
     main_bis(event, w, s);
+    return 0;
 }

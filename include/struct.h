@@ -33,6 +33,25 @@ typedef struct pokesounds_s {
     
 } pokesounds_t;
 
+typedef struct pokemon_s{
+    int id;
+    char *name;
+    char *japanese_name;
+    char *type1;
+    char *type2;
+    char *classification;
+    char* attack;
+    char* defense;
+    char* hp;
+    char* sp_attack;
+    char* sp_defense;
+    char* speed;
+    char* weight_kg;
+    char* height_m;
+    char* generation;
+    char* is_legendary;
+} pokemon_t;
+
 sfVector2f create_vector(int x, int y);
 void int_to_string(int n, char *str);
 void update_number(num_t *num, int nb);
@@ -41,5 +60,6 @@ void reset_str(num_t *num);
 void research(sfEvent *event, num_t *num);
 void init_string(num_t *num);
 void create_sounds(pokesounds_t *sounds);
+int parsing(void);
 
 #endif
