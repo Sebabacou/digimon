@@ -27,6 +27,12 @@ typedef struct num_s {
 
 } num_t;
 
+typedef struct pokesounds_s {
+
+    sfMusic *sound;
+    
+} pokesounds_t;
+
 sfVector2f create_vector(int x, int y);
 void int_to_string(int n, char *str);
 void update_number(num_t *num, int nb);

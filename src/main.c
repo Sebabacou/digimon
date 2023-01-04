@@ -50,7 +50,9 @@ int main(void)
     sfSound *change = sfSound_create();
     sfSoundBuffer *buff2 = sfSoundBuffer_createFromFile("ressources/switch_pokemon.ogg");
     num_t *num = malloc(sizeof(num_t));
+    pokesounds_t *sounds = malloc(sizeof(pokesounds_t) * 151);
 
+    create_sounds(sounds);
     init_string(num);
     sfSound_setBuffer(open, buff);
     sfSound_setBuffer(change, buff2);
