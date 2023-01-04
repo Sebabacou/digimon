@@ -5,7 +5,10 @@
 ## makefile
 ##
 
-SRC	=	main.c	\
+SRC	=	src/main.c	\
+		src/research_lib.c  \
+		src/research_operation.c    \
+		src/research.c
 
 OBJ	=	$(SRC:.c=.o)
 
@@ -21,7 +24,7 @@ $(NAME): $(OBJ)
 	gcc -o $(NAME) $(OBJ) $(CSFMLF) -g
 
 clean:
-	rm -f *o
+	rm -f $(OBJ)
 	rm -f *~
 
 fclean: clean
