@@ -72,8 +72,9 @@ int main(void)
     sfTexture *background = sfTexture_createFromFile("ressources/pokedex.jpg", NULL);
     sfSprite *s = sfSprite_create();
     sfEvent event;
+    pokemon_t *poke = malloc(sizeof(pokemon_t) * 153);
 
-    parsing();
+    parsing(poke);
     sfRenderWindow_setFramerateLimit(w, 60);
     sfSprite_setTexture(s, background, sfTrue);
     main_bis(event, w, s);

@@ -61,8 +61,13 @@ void research(sfEvent *event, num_t *num)
         is_num_pressed(event, num);
     if (event->type == sfEvtKeyPressed && sfKeyboard_isKeyPressed(sfKeyReturn))
         if (num->value != 0) {
-            printf("enter\n");
             reset_str(num);
-            // go_to_index(num->value);
+            go_to_index(num->value);
         }
+}
+
+void go_to_index(int nb)
+{
+
+
 }

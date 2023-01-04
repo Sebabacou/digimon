@@ -118,12 +118,11 @@ int poke_sort(pokemon_t *poke, int k, char **bufer)
     return 0;
 }
 
-int parsing(void)
+int parsing(pokemon_t *poke)
 {
     int fd = open("ressources/pokemon.csv", O_RDONLY);
     char **line = malloc(sizeof(char *) * 153);
     char *buffer = malloc(sizeof(char *) * 100001);
-    pokemon_t *poke = malloc(sizeof(pokemon_t) * 153);
 
     read(fd, buffer, 100000);
     for (size_t i = 0;  i < 152; i++) {
