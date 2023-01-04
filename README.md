@@ -9,7 +9,8 @@
   - Yann Pereness - Musician
   - Florian Trillaud - Sprite management
 
-settings :
+## Settings
+
   press arrow on the right part of the pokedex to pass to the next pokemon [->] or to the pokemon before [<-].
   or press the left button or the right button on the directional cross.
   
