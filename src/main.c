@@ -20,7 +20,7 @@ void my_button(sfRenderWindow *w, sfEvent event, num_t *num, sfSound *change)
         if (event.type == sfEvtMouseButtonPressed)
             sfSound_play(change);
     if (mouse.x >= 390 && mouse.x <= 421 && mouse.y >= 326 && mouse.y <= 352)
-        if (event.type == sfEvtMouseButtonPressed) 
+        if (event.type == sfEvtMouseButtonPressed)
             sfSound_play(change);
     if (mouse.x >= 206 && mouse.x <= 232 && mouse.y >= 350 && mouse.y <= 370)
         if (event.type == sfEvtMouseButtonPressed)
@@ -31,17 +31,20 @@ void my_button(sfRenderWindow *w, sfEvent event, num_t *num, sfSound *change)
     research(&event, num);
 }
 
-void end(num_t *num)
+void end(num_t *num, sfSound *open, sfSound *change, sfRenderWindow *w)
 {
     sfText_destroy(num->text);
     free(num->str);
     free(num);
+    sfSound_destroy(open);
+    sfSound_destroy(change);
+    sfRenderWindow_destroy(w);
 }
 
 int main(void)
 {
     sfVideoMode m = {620, 449, 32};
-    sfRenderWindow *w;
+    sfRenderWindow *w = sfRenderWindow_create(m, "screen", sfResize | sfClose, NULL);
     sfTexture *background = sfTexture_createFromFile("ressources/pokedex.jpg", NULL);
     sfSprite *s = sfSprite_create();
     sfEvent event;
@@ -56,19 +59,15 @@ int main(void)
     init_string(num);
     sfSound_setBuffer(open, buff);
     sfSound_setBuffer(change, buff2);
-    w = sfRenderWindow_create(m, "screen", sfResize | sfClose, NULL);
     sfRenderWindow_setFramerateLimit(w, 60);
     sfSound_play(open);
     while (sfRenderWindow_isOpen(w)) {
         sfSprite_setTexture(s, background, sfTrue);
-        sfRenderWindow_drawSprite(w, s, NULL);
         while (sfRenderWindow_pollEvent(w, &event))
             my_button(w, event, num, change);
+        sfRenderWindow_drawSprite(w, s, NULL);
         sfRenderWindow_drawText(w, num->text, NULL);
         sfRenderWindow_display(w);
     }
-    sfSound_destroy(open);
-    sfSound_destroy(change);
-    sfRenderWindow_destroy(w);
-    end(num);
+    end(num, open, change, w);
 }
