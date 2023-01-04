@@ -41,13 +41,8 @@ void end(num_t *num, sfSound *open, sfSound *change, sfRenderWindow *w)
     sfRenderWindow_destroy(w);
 }
 
-int main(void)
+int main_bis(sfEvent event, sfRenderWindow *w, sfSprite *s)
 {
-    sfVideoMode m = {620, 449, 32};
-    sfRenderWindow *w = sfRenderWindow_create(m, "screen", sfResize | sfClose, NULL);
-    sfTexture *background = sfTexture_createFromFile("ressources/pokedex.jpg", NULL);
-    sfSprite *s = sfSprite_create();
-    sfEvent event;
     sfSound *open = sfSound_create();
     sfSoundBuffer *buff = sfSoundBuffer_createFromFile("ressources/open_sound.ogg");
     sfSound *change = sfSound_create();
@@ -59,10 +54,8 @@ int main(void)
     init_string(num);
     sfSound_setBuffer(open, buff);
     sfSound_setBuffer(change, buff2);
-    sfRenderWindow_setFramerateLimit(w, 60);
     sfSound_play(open);
     while (sfRenderWindow_isOpen(w)) {
-        sfSprite_setTexture(s, background, sfTrue);
         while (sfRenderWindow_pollEvent(w, &event))
             my_button(w, event, num, change);
         sfRenderWindow_drawSprite(w, s, NULL);
@@ -70,4 +63,17 @@ int main(void)
         sfRenderWindow_display(w);
     }
     end(num, open, change, w);
+}
+
+int main(void)
+{
+    sfVideoMode m = {620, 449, 32};
+    sfRenderWindow *w = sfRenderWindow_create(m, "screen", sfResize | sfClose, NULL);
+    sfTexture *background = sfTexture_createFromFile("ressources/pokedex.jpg", NULL);
+    sfSprite *s = sfSprite_create();
+    sfEvent event;
+
+    sfRenderWindow_setFramerateLimit(w, 60);
+    sfSprite_setTexture(s, background, sfTrue);
+    main_bis(event, w, s);
 }
