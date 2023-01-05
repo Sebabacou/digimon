@@ -51,7 +51,7 @@ void is_num_pressed(sfEvent *event, num_t *num)
         update_number(num, 0);
 }
 
-void research(sfEvent *event, num_t *num, pokemon_t *poke, int *nb)
+void research(sfEvent *event, num_t *num, int *nb, struct sprt_s *pk)
 {
     if (event->type == sfEvtKeyPressed && sfKeyboard_isKeyPressed(sfKeyDelete))
         del_str(num);
@@ -62,6 +62,10 @@ void research(sfEvent *event, num_t *num, pokemon_t *poke, int *nb)
     if (event->type == sfEvtKeyPressed && sfKeyboard_isKeyPressed(sfKeyReturn))
         if (num->value != 0) {
             nb[0] = num->value;
+            pk->n = nb[0];
+
+            define_sprite(pk);
+            setup_sprite(pk);
             reset_str(num);
         }
 }

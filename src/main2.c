@@ -70,18 +70,14 @@ void display_window(sfRenderWindow* window, struct sprt_s pkmn, struct sprt_s bb
     sfSound_destroy(change);
 }
 
-int main(int argc, char **argv)
+int main(void)
 {
     sfRenderWindow* window;
     sfVideoMode mode = {620, 449, 32};
 
-    if (argc == 1) {
-        window = sfRenderWindow_create
-            (mode, "PKDX", sfResize | sfClose, NULL);
-	if (!window)
-            return 84;
-        init_sprite(window);
-        sfRenderWindow_destroy(window);
-    }
+    window = sfRenderWindow_create
+    (mode, "PKDX", sfResize | sfClose, NULL);
+    init_sprite(window);
+    sfRenderWindow_destroy(window);
      return 0;
 }
