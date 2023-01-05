@@ -10,25 +10,29 @@
 #include <stdio.h>
 #include "struct.h"
 
-void my_button(sfRenderWindow *w, sfEvent event, num_t *num, sfSound *change, pokemon_t *poke)
+void my_button(sfRenderWindow *w, sfEvent event, num_t *num, sfSound *change, pokemon_t *poke, int *nb)
 {
     sfVector2i mouse = sfMouse_getPositionRenderWindow(w);
     
     if (event.type == sfEvtClosed)
         sfRenderWindow_close(w);
     if (mouse.x >= 250 && mouse.x <= 276 && mouse.y >= 350 && mouse.y <= 370)
-        if (event.type == sfEvtMouseButtonPressed)
+        if (event.type == sfEvtMouseButtonPressed) {
             sfSound_play(change);
+        }
     if (mouse.x >= 390 && mouse.x <= 421 && mouse.y >= 326 && mouse.y <= 352)
-        if (event.type == sfEvtMouseButtonPressed)
+        if (event.type == sfEvtMouseButtonPressed){
             sfSound_play(change);
+        }
     if (mouse.x >= 206 && mouse.x <= 232 && mouse.y >= 350 && mouse.y <= 370)
-        if (event.type == sfEvtMouseButtonPressed)
+        if (event.type == sfEvtMouseButtonPressed){
             sfSound_play(change);
+        }
     if (mouse.x >= 424 && mouse.x <= 450 && mouse.y >= 326 && mouse.y <= 352)
-        if (event.type == sfEvtMouseButtonPressed)
+        if (event.type == sfEvtMouseButtonPressed){
             sfSound_play(change);
-    research(&event, num, poke);
+        }
+    research(&event, num, poke, nb);
 }
 
 void end(num_t *num, sfSound *open, sfSound *change, sfRenderWindow *w)
@@ -43,6 +47,7 @@ void end(num_t *num, sfSound *open, sfSound *change, sfRenderWindow *w)
 
 int main_bis(sfEvent event, sfRenderWindow *w,struct sprt_s pkmn, struct sprt_s bbl, sfSprite *s, pokemon_t *poke)
 {
+    int id[1] = {13};
     sfSound *open = sfSound_create();
     sfSoundBuffer *buff = sfSoundBuffer_createFromFile("ressources/open_sound.ogg");
     sfSound *change = sfSound_create();
@@ -59,12 +64,12 @@ int main_bis(sfEvent event, sfRenderWindow *w,struct sprt_s pkmn, struct sprt_s 
     cl.clock = sfClock_create();
     while (sfRenderWindow_isOpen(w)) {
         while (sfRenderWindow_pollEvent(w, &event))
-            my_button(w, event, num, change, poke);
+            my_button(w, event, num, change, poke, id);
         sfRenderWindow_drawSprite(w, s, NULL);
         sfRenderWindow_drawText(w, num->text, NULL);
         sfRenderWindow_drawSprite(w, pkmn.sprite, NULL);
         sfRenderWindow_drawSprite(w, bbl.sprite, NULL);
-        pkmn = anim(w, pkmn, cl);
+        pkmn = anim(w, pkmn, cl, id, bbl);
         sfRenderWindow_display(w);
     }
     end(num, open, change, w);
